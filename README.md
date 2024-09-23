@@ -23,7 +23,7 @@ Here are some ideas to get you started: -->
 
 - 👨‍💻 Life Hack: Learn new tech :fire: and share what you have learned :tada:
 
-- ⚡ Fun fact: I waste most of my time playing games
+- ⚡ Fun fact: I waste most of my time watching movies
 
 ## 🛠️ Technologies and Tools I use:
 
