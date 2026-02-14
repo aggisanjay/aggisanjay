@@ -60,7 +60,9 @@ Here are some ideas to get you started: -->
 
 <div align="center">
   <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=aggisanjay&show_icons=true" />
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aggisanjay&" alt="sanjay" />
+  <!-- <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aggisanjay&" alt="sanjay" /> -->
+	
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aggisanjay&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=6366f1" />
 </div>
 
 					
