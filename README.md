@@ -6,7 +6,7 @@
 
 <img src="./thoughtworks-gif_dribbble.gif" height="290px" align="right" />
 
-- 🙋‍♂️ All about me is at **[My Portfolio](https://portfolio-sanjay-aggi.vercel.app/)**
+- 🙋‍♂️ All about me is at **[My Portfolio](https://sanjay-portflio.vercel.app/)**
 
 - 🔭 I'm currently building **Production-grade web apps** with `React, Node.js, MongoDB, Redis & AI APIs`
 
