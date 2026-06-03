@@ -102,7 +102,7 @@
 
 <img src="./thoughtworks-gif_dribbble.gif" height="290px" align="right" />
 
-- 🙋‍♂️ All about me is at **[My Portfolio](https://portfolio-sanjay-aggi.vercel.app/)**
+- 🙋‍♂️ All about me is at **[My Portfolio](https://sanjay-portflio.vercel.app/)**
 
 - 🔭 I'm currently building **Production-grade AI applications** with `React, Node.js, TypeScript, LangChain, LangGraph & LLM APIs`
 
