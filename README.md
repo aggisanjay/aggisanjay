@@ -131,6 +131,117 @@
 | **ShopAI** | Full-stack e-commerce with Redis caching (450ms→150ms), BullMQ workers, and Stripe payments | React, Node.js, MongoDB, Redis, Stripe, BullMQ | [GitHub](https://github.com/aggisanjay/shopai) • [Live](https://shopai-app.netlify.app) |
 | **AI Resume Builder** | AI-powered resume builder with OpenAI + Gemini integration and ATS-compatible PDF export | React, Node.js, MongoDB, OpenAI API, ImageKit | [GitHub](https://github.com/aggisanjay/Full-Stack-AI-Resume-Builder-App) • [Live](https://ai-resume-builder-psi-black.vercel.app/) |
 
+export const projects: Project[] = [
+  {
+    id: 1,
+    title: "Curalink — AI Medical Research Assistant",
+    shortTitle: "Curalink",
+    description:
+      "5-step deterministic RAG pipeline with parallel retrieval from PubMed, OpenAlex and ClinicalTrials.gov, 3-tier LLM fallback chain (9 models), and custom 100-point scoring algorithm.",
+    tags: ["React", "Node.js", "MongoDB", "HuggingFace Router API", "PubMed API", "OpenAlex API", "ClinicalTrials.gov API"],
+    demo: "https://ai-medical-research-assistant.vercel.app/",
+    github: "https://github.com/aggisanjay/AI-Medical-Research-Assistant",
+    metrics: [
+      { label: "Sources", value: "3 APIs" },
+      { label: "Fallback", value: "9 models" },
+      { label: "Ranking", value: "100-pt" },
+    ],
+    image: "/projects/ai-research.jpeg",
+    accent: "from-indigo-500/30 to-cyan-400/20",
+    category: "AI",
+  },
+  {
+    id: 2,
+    title: "Agentic Support Desk",
+    shortTitle: "Support Desk AI",
+    description:
+      "Agentic AI system with LangGraph orchestration, Tavily web search grounding, and structured output enforcement.",
+    tags: ["React", "Node.js", "TypeScript", "LangChain", "LangGraph", "OpenAI", "Gemini", "Tavily"],
+    demo: "https://fullstack-ai-supportdesk-agent-with.vercel.app/",
+    github: "https://github.com/aggisanjay/fullstack_ai_Supportdesk_Agent_with_longchain",
+    metrics: [
+      { label: "Providers", value: "2 LLMs" },
+      { label: "Auth", value: "OAuth + JWT" },
+      { label: "Agent", value: "LangGraph" },
+    ],
+    image: "/projects/Support-agent.jpeg",
+    accent: "from-orange-400/25 to-pink-500/20",
+    category: "AI",
+  },
+  {
+    id: 3,
+    title: "AI Document Intelligence — RAG Q&A",
+    shortTitle: "Doc Intelligence",
+    description:
+      "Production-ready RAG document Q&A with embeddings, vector search, and real-time SSE streaming.",
+    tags: ["Next.js 14", "TypeScript", "Node.js", "PostgreSQL", "Prisma", "Gemini 3.0 Flash", "MiniLM-L6-v2"],
+    demo: "https://ai-doc-intelligence-ruddy.vercel.app/",
+    github: "https://github.com/aggisanjay/ai-doc-intelligence",
+    metrics: [
+      { label: "Pipeline", value: "End-to-end" },
+      { label: "Streaming", value: "SSE" },
+      { label: "Per-user", value: "Isolated" },
+    ],
+    image: "/projects/aidoc.png",
+    accent: "from-emerald-400/30 to-cyan-400/20",
+    category: "AI",
+  },
+  {
+    id: 4,
+    title: "QuickAI — AI SaaS Platform",
+    shortTitle: "QuickAI",
+    description:
+      "AI SaaS platform with dynamic model switching, RAG pipeline, and token cost optimization.",
+    tags: ["React", "Node.js", "PostgreSQL", "Gemini API", "Clerk"],
+    demo: "https://quickai-phi.vercel.app/",
+    github: "https://github.com/aggisanjay/Full-Stack-AI-Saas-Platform-PERN",
+    metrics: [
+      { label: "Billing", value: "Metered" },
+      { label: "Auth", value: "Clerk RBAC" },
+      { label: "Tools", value: "8+" },
+    ],
+    image: "/projects/QuickAI.jpeg",
+    accent: "from-cyan-400/25 to-emerald-400/20",
+    category: "AI",
+  },
+  {
+    id: 5,
+    title: "ShopAI — E-Commerce Platform",
+    shortTitle: "ShopAI",
+    description:
+      "Full-stack e-commerce with Redis caching (450ms→150ms), BullMQ workers, and Stripe payments.",
+    tags: ["React", "Node.js", "MongoDB", "Redis", "Stripe", "BullMQ"],
+    demo: "https://shopai-app.netlify.app",
+    github: "https://github.com/aggisanjay/shopai",
+    metrics: [
+      { label: "Queue", value: "500+/hr" },
+      { label: "API latency", value: "−67%" },
+      { label: "Auth", value: "Dual JWT" },
+    ],
+    image: "/projects/ShopAI.jpeg",
+    accent: "from-fuchsia-500/25 to-indigo-500/20",
+    category: "E-Commerce",
+  },
+  {
+    id: 6,
+    title: "AI Resume Builder",
+    shortTitle: "Resume Builder",
+    description:
+      "AI-powered resume builder with OpenAI + Gemini integration and ATS-compatible PDF export.",
+    tags: ["React", "Node.js", "MongoDB", "OpenAI API", "ImageKit"],
+    demo: "https://ai-resume-builder-psi-black.vercel.app/",
+    github: "https://github.com/aggisanjay/Full-Stack-AI-Resume-Builder-App",
+    metrics: [
+      { label: "Export", value: "ATS PDF" },
+      { label: "AI", value: "OpenAI + Gemini" },
+      { label: "Storage", value: "ImageKit" },
+    ],
+    image: "/projects/ai-resume-builder.jpeg",
+    accent: "from-amber-400/25 to-orange-400/20",
+    category: "AI",
+  },
+];
+
 ## 🛠️ Technologies and Tools I use:
 
 **Languages & Core:**
