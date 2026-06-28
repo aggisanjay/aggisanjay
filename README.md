@@ -111,8 +111,8 @@
 ## 📊 My GitHub Data:
 
 <div align="center">
-  <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=aggisanjay&show_icons=true&theme=nord&count_private=true" alt="GitHub Stats" height="135" />
+ 
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=aggisanjay&show_icons=true&theme=nord&count_private=true" alt="GitHub Stats" height="135" />
   <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aggisanjay&theme=tokyonight&hide_border=true" alt="sanjay" />
 </div>
 
