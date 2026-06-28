@@ -112,7 +112,6 @@
 
 <div align="center">
  
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/api?username=aggisanjay&show_icons=true&theme=tokyonight&count_private=true" alt="GitHub Stats" height="135" />
   
   <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aggisanjay&theme=tokyonight&hide_border=true" alt="sanjay" />
 </div>
