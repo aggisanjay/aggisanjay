@@ -137,7 +137,7 @@
 
 <img src="./thoughtworks-gif_dribbble.gif" height="290px" align="right" />
 
-- 🙋‍♂️ All about me is at **[My Portfolio](https://portfolio-sanjay-aggi.vercel.app/)**
+- 🙋‍♂️ All about me is at **[My Portfolio](https://sanjay-portflio.vercel.app/)**
 
 - 🔭 Currently working on **production AI and full-stack applications** using `React, Node.js, TypeScript, MongoDB, PostgreSQL, Redis & AI/LLM APIs`
 
