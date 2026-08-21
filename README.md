@@ -285,7 +285,10 @@
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-stats.anuraghar1.vercel.app/api/top-langs/?username=aggisanjay&layout=compact&theme=tokyonight&hide_border=true" />
+  <img
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=aggisanjay&layout=compact&theme=tokyonight&hide_border=true"
+  alt="Top Languages"
+/>
 </div>
 
 ---
