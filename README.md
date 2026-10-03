@@ -280,7 +280,15 @@
 
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aggisanjay&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+ 
+  
+  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aggisanjay&theme=tokyonight&hide_border=true" alt="sanjay" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=aggisanjay&layout=compact&theme=tokyonight&hide_border=true" />
 </div>
 
 
