@@ -1,7 +1,4 @@
 
-
-
-
 <h1 align="center">Hey there <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px" height="60px"> I'm Sanjay Aggi</h1>
 
 <h3 align="center">Full-Stack AI Engineer | React • Node.js • TypeScript • RAG • LLMs • Production Systems</h3>
