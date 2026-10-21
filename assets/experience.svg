@@ -1,0 +1,172 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Production Experience - ModelSuite AI Full-Stack Engineer</title>
+  <desc>Detailed overview of engineering responsibilities, production features, and platform architecture at ModelSuite AI</desc>
+  
+  <defs>
+    
+  <style>
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes sheenSweep {
+      0% { stop-color: #C77B9B; }
+      50% { stop-color: #F8E2EC; }
+      100% { stop-color: #C77B9B; }
+    }
+    @keyframes sheenGradMove {
+      0% { x1: 0%; x2: 100%; }
+      50% { x1: 50%; x2: 150%; }
+      100% { x1: 0%; x2: 100%; }
+    }
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.6; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.15); }
+    }
+    @keyframes scanline {
+      0% { transform: translateX(-1200px); }
+      100% { transform: translateX(1200px); }
+    }
+    @keyframes orbitDot {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    @keyframes dashFlow {
+      to { stroke-dashoffset: -40; }
+    }
+    .fade-in { animation: fadeIn 0.8s ease-out forwards; }
+    .cursor-blink { animation: blink 1s infinite; }
+    .pulse { animation: pulseGlow 3s ease-in-out infinite; }
+    .orbit-spin { transform-origin: 935px 245px; animation: orbitDot 24s linear infinite; }
+    
+    @media (prefers-reduced-motion: reduce) {
+      *, .fade-in, .cursor-blink, .pulse, .orbit-spin {
+        animation: none !important;
+        transform: none !important;
+      }
+    }
+  </style>
+
+    <!-- Background linear gradient -->
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#190B12" />
+      <stop offset="100%" stop-color="#10070C" />
+    </linearGradient>
+
+    <!-- Radial wine glow top-right -->
+    <radialGradient id="radialGlow" cx="88%" cy="18%" r="65%">
+      <stop offset="0%" stop-color="#701A3D" stop-opacity="0.32" />
+      <stop offset="50%" stop-color="#451126" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#190B12" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Sheen gradient for italic words -->
+    <linearGradient id="sheen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E5B5C7" />
+      <stop offset="50%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#C77B9B" />
+      <animate attributeName="x1" values="0%;60%;0%" dur="6s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="100%;160%;100%" dur="6s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <!-- Pill / Chip Gradient -->
+    <linearGradient id="chipBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#260F1E" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#160811" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Divider Line Gradient -->
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C77B9B" stop-opacity="0.02" />
+      <stop offset="25%" stop-color="#C77B9B" stop-opacity="0.25" />
+      <stop offset="50%" stop-color="#E5B5C7" stop-opacity="0.6" />
+      <stop offset="75%" stop-color="#C77B9B" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#C77B9B" stop-opacity="0.02" />
+    </linearGradient>
+
+    <!-- Faint 40px grid pattern -->
+    <pattern id="grid40" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#C77B9B" stroke-opacity="0.045" stroke-width="1" />
+    </pattern>
+
+    <!-- Subtle Drop Shadow -->
+    <filter id="glowDrop" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+
+  <!-- Card Frame -->
+  <rect width="1200" height="420" rx="20" fill="url(#cardBg)" stroke="#C77B9B" stroke-opacity="0.16" stroke-width="1" />
+  <rect width="1200" height="420" rx="20" fill="url(#grid40)" />
+  <rect width="1200" height="420" rx="20" fill="url(#radialGlow)" />
+
+  <!-- Top Role Header -->
+  <g class="fade-in">
+    <text x="55" y="55" font-family="'SF Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="11.5" letter-spacing="2.8" fill="#C77B9B" font-weight="600">FULL-STACK ENGINEER · PRODUCTION ROLE</text>
+    <text x="55" y="98" font-family="Georgia, 'Times New Roman', serif" font-size="38" font-weight="300" fill="#F8F0F3">
+      ModelSuite AI <tspan font-style="italic" fill="url(#sheen)">Platforms.</tspan>
+    </text>
+    <text x="1145" y="98" text-anchor="end" font-family="'SF Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="13" letter-spacing="2" fill="#E5B5C7">
+      FRAMEX &amp; TALENT PORTAL
+    </text>
+    <line x1="55" y1="120" x2="1145" y2="120" stroke="#C77B9B" stroke-opacity="0.14" stroke-width="1" />
+  </g>
+
+  <!-- 3 Impact Pillars -->
+  <g class="fade-in">
+    <!-- Pillar 1: Platform & Frontend -->
+    <g transform="translate(55, 145)">
+      <rect width="345" height="205" rx="14" fill="#14060E" stroke="#C77B9B" stroke-opacity="0.18" stroke-width="1" />
+      <text x="25" y="36" font-family="'SF Mono', ui-monospace, monospace" font-size="11" letter-spacing="2" fill="#C77B9B" font-weight="600">01 · FRONTEND WORKFLOWS</text>
+      <text x="25" y="70" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="300" fill="#F8F0F3">60+ Production Features</text>
+      
+      <text x="25" y="105" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#B6A3AC" width="295">
+        <tspan x="25" dy="0">• Built React dashboards &amp; Review Center</tspan>
+        <tspan x="25" dy="24">• Managed responsive layouts &amp; filtering</tspan>
+        <tspan x="25" dy="24">• Synchronized UI state across persona assets</tspan>
+        <tspan x="25" dy="24">• Fixed critical production state bugs</tspan>
+      </text>
+    </g>
+
+    <!-- Pillar 2: AI Media & Pipelines -->
+    <g transform="translate(427, 145)">
+      <rect width="345" height="205" rx="14" fill="#14060E" stroke="#C77B9B" stroke-opacity="0.18" stroke-width="1" />
+      <text x="25" y="36" font-family="'SF Mono', ui-monospace, monospace" font-size="11" letter-spacing="2" fill="#C77B9B" font-weight="600">02 · AI PIPELINES</text>
+      <text x="25" y="70" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="300" fill="#F8F0F3">Media-Gen Workflows</text>
+      
+      <text x="25" y="105" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#B6A3AC">
+        <tspan x="25" dy="0">• Generation-to-asset linking pipeline</tspan>
+        <tspan x="25" dy="24">• Handled batch generation variations</tspan>
+        <tspan x="25" dy="24">• Integrated Cloudinary asset storage &amp; avatars</tspan>
+        <tspan x="25" dy="24">• Orchestrated async processing &amp; previews</tspan>
+      </text>
+    </g>
+
+    <!-- Pillar 3: Backend & Security -->
+    <g transform="translate(800, 145)">
+      <rect width="345" height="205" rx="14" fill="#14060E" stroke="#C77B9B" stroke-opacity="0.18" stroke-width="1" />
+      <text x="25" y="36" font-family="'SF Mono', ui-monospace, monospace" font-size="11" letter-spacing="2" fill="#C77B9B" font-weight="600">03 · BACKEND &amp; APIS</text>
+      <text x="25" y="70" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="300" fill="#F8F0F3">Resilient Services</text>
+      
+      <text x="25" y="105" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#B6A3AC">
+        <tspan x="25" dy="0">• Built Node / Express models &amp; controllers</tspan>
+        <tspan x="25" dy="24">• Implemented role-based access control (RBAC)</tspan>
+        <tspan x="25" dy="24">• Centralized validation &amp; error pipelines</tspan>
+        <tspan x="25" dy="24">• Enforced Git PR review &amp; CI staging checks</tspan>
+      </text>
+    </g>
+  </g>
+
+  <!-- Bottom Tech Strip -->
+  <g class="fade-in">
+    <line x1="55" y1="375" x2="1145" y2="375" stroke="#C77B9B" stroke-opacity="0.14" stroke-width="1" />
+    <text x="55" y="400" font-family="'SF Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="11" letter-spacing="2.2" fill="#B6A3AC">
+      CORE WORKFLOW : <tspan fill="#F8F0F3">REACT.JS · NODE.JS · EXPRESS · MONGODB · REST APIS · CLOUDINARY · ZUSTAND · GIT CI/CD</tspan>
+    </text>
+  </g>
+</svg>

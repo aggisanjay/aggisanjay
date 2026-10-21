@@ -1,0 +1,223 @@
+<svg width="1200" height="370" viewBox="0 0 1200 370" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>ShopAI - 02 · HIGH-PERFORMANCE COMMERCE PLATFORM</title>
+  <desc>Project showcase card for ShopAI: AI-driven commerce engine featuring Redis cache-aside acceleration and asynchronous background job queues.</desc>
+  
+  <defs>
+    
+  <style>
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes sheenSweep {
+      0% { stop-color: #C77B9B; }
+      50% { stop-color: #F8E2EC; }
+      100% { stop-color: #C77B9B; }
+    }
+    @keyframes sheenGradMove {
+      0% { x1: 0%; x2: 100%; }
+      50% { x1: 50%; x2: 150%; }
+      100% { x1: 0%; x2: 100%; }
+    }
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.6; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.15); }
+    }
+    @keyframes scanline {
+      0% { transform: translateX(-1200px); }
+      100% { transform: translateX(1200px); }
+    }
+    @keyframes orbitDot {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    @keyframes dashFlow {
+      to { stroke-dashoffset: -40; }
+    }
+    .fade-in { animation: fadeIn 0.8s ease-out forwards; }
+    .cursor-blink { animation: blink 1s infinite; }
+    .pulse { animation: pulseGlow 3s ease-in-out infinite; }
+    .orbit-spin { transform-origin: 935px 245px; animation: orbitDot 24s linear infinite; }
+    
+    @media (prefers-reduced-motion: reduce) {
+      *, .fade-in, .cursor-blink, .pulse, .orbit-spin {
+        animation: none !important;
+        transform: none !important;
+      }
+    }
+  </style>
+
+    <!-- Background linear gradient -->
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#190B12" />
+      <stop offset="100%" stop-color="#10070C" />
+    </linearGradient>
+
+    <!-- Radial wine glow top-right -->
+    <radialGradient id="radialGlow" cx="88%" cy="18%" r="65%">
+      <stop offset="0%" stop-color="#701A3D" stop-opacity="0.32" />
+      <stop offset="50%" stop-color="#451126" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#190B12" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Sheen gradient for italic words -->
+    <linearGradient id="sheen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E5B5C7" />
+      <stop offset="50%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#C77B9B" />
+      <animate attributeName="x1" values="0%;60%;0%" dur="6s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="100%;160%;100%" dur="6s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <!-- Pill / Chip Gradient -->
+    <linearGradient id="chipBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#260F1E" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#160811" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Divider Line Gradient -->
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C77B9B" stop-opacity="0.02" />
+      <stop offset="25%" stop-color="#C77B9B" stop-opacity="0.25" />
+      <stop offset="50%" stop-color="#E5B5C7" stop-opacity="0.6" />
+      <stop offset="75%" stop-color="#C77B9B" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#C77B9B" stop-opacity="0.02" />
+    </linearGradient>
+
+    <!-- Faint 40px grid pattern -->
+    <pattern id="grid40" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#C77B9B" stroke-opacity="0.045" stroke-width="1" />
+    </pattern>
+
+    <!-- Subtle Drop Shadow -->
+    <filter id="glowDrop" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+
+  <!-- Card Frame -->
+  <rect width="1200" height="370" rx="20" fill="url(#cardBg)" stroke="#C77B9B" stroke-opacity="0.16" stroke-width="1" />
+  <rect width="1200" height="370" rx="20" fill="url(#grid40)" />
+  <rect width="1200" height="370" rx="20" fill="url(#radialGlow)" />
+
+  <!-- Left Content Column -->
+  <g class="fade-in">
+    <!-- Index · Category label -->
+    <text x="55" y="55" font-family="'SF Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="12" letter-spacing="2.8" fill="#C77B9B" font-weight="600">02 · HIGH-PERFORMANCE COMMERCE PLATFORM</text>
+
+    <!-- 52px Serif Project Name -->
+    <text x="55" y="112" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="300" fill="#F8F0F3" letter-spacing="-0.5">
+      ShopAI<tspan font-style="italic" fill="url(#sheen)">.</tspan>
+    </text>
+
+    <!-- One-line Description -->
+    <text x="55" y="145" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14.5" fill="#F8F0F3" font-weight="400">
+      AI-driven commerce engine featuring Redis cache-aside acceleration and asynchronous background job queues.
+    </text>
+
+    <!-- BUILT > Mono Line -->
+    <text x="55" y="180" font-family="'SF Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="11.5" letter-spacing="1.8" fill="#B6A3AC">
+      <tspan fill="#C77B9B" font-weight="600">BUILT ›</tspan> DUAL-TOKEN JWT AUTH · BULLMQ ASYNC WORKFLOWS · STRIPE PAYMENT INTENTS &amp; WEBHOOKS
+    </text>
+
+    <!-- 3 Big Stats Row -->
+    <g transform="translate(55, 205)">
+      <!-- Stat 1 -->
+      <g>
+        <text x="0" y="32" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="300" fill="#F8F0F3">66%</text>
+        <text x="0" y="52" font-family="'SF Mono', ui-monospace, monospace" font-size="10.5" letter-spacing="1.2" fill="#B6A3AC">Latency Drop (450ms → 150ms)</text>
+      </g>
+      <!-- Stat 2 -->
+      <g transform="translate(225, 0)">
+        <text x="0" y="32" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="300" fill="#F8F0F3">BullMQ</text>
+        <text x="0" y="52" font-family="'SF Mono', ui-monospace, monospace" font-size="10.5" letter-spacing="1.2" fill="#B6A3AC">Asynchronous Worker Queue</text>
+      </g>
+      <!-- Stat 3 -->
+      <g transform="translate(450, 0)">
+        <text x="0" y="32" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="300" fill="#F8F0F3">Stripe</text>
+        <text x="0" y="52" font-family="'SF Mono', ui-monospace, monospace" font-size="10.5" letter-spacing="1.2" fill="#B6A3AC">Verified Webhook Architecture</text>
+      </g>
+    </g>
+
+    <!-- Tech Chips Row -->
+    <g>
+      
+        <rect x="55" y="312" width="64" height="26" rx="13" fill="url(#chipBg)" stroke="#C77B9B" stroke-opacity="0.22" stroke-width="1" />
+        <text x="87.0" y="329" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#E5B5C7">React</text>
+        
+        <rect x="129" y="312" width="80" height="26" rx="13" fill="url(#chipBg)" stroke="#C77B9B" stroke-opacity="0.22" stroke-width="1" />
+        <text x="169.0" y="329" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#E5B5C7">Node.js</text>
+        
+        <rect x="219" y="312" width="80" height="26" rx="13" fill="url(#chipBg)" stroke="#C77B9B" stroke-opacity="0.22" stroke-width="1" />
+        <text x="259.0" y="329" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#E5B5C7">Express</text>
+        
+        <rect x="309" y="312" width="80" height="26" rx="13" fill="url(#chipBg)" stroke="#C77B9B" stroke-opacity="0.22" stroke-width="1" />
+        <text x="349.0" y="329" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#E5B5C7">MongoDB</text>
+        
+        <rect x="399" y="312" width="64" height="26" rx="13" fill="url(#chipBg)" stroke="#C77B9B" stroke-opacity="0.22" stroke-width="1" />
+        <text x="431.0" y="329" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#E5B5C7">Redis</text>
+        
+        <rect x="473" y="312" width="72" height="26" rx="13" fill="url(#chipBg)" stroke="#C77B9B" stroke-opacity="0.22" stroke-width="1" />
+        <text x="509.0" y="329" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#E5B5C7">Stripe</text>
+        
+        <rect x="555" y="312" width="72" height="26" rx="13" fill="url(#chipBg)" stroke="#C77B9B" stroke-opacity="0.22" stroke-width="1" />
+        <text x="591.0" y="329" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#E5B5C7">BullMQ</text>
+        
+    </g>
+  </g>
+
+  <!-- Right Side Node-Flow Diagram -->
+  
+        <!-- Node-flow diagram for ShopAI Architecture -->
+        <g transform="translate(730, 45)">
+          <rect width="415" height="280" rx="14" fill="#13050D" stroke="#C77B9B" stroke-opacity="0.16" stroke-width="1" />
+          <text x="25" y="30" font-family="'SF Mono', ui-monospace, monospace" font-size="10" letter-spacing="2" fill="#C77B9B">CACHE-ASIDE &amp; QUEUE SYSTEM</text>
+
+          <!-- Paths -->
+          <path d="M 60 85 L 140 85" stroke="#701A3D" stroke-width="2" fill="none" />
+          <path d="M 190 65 C 230 40, 260 40, 300 40" stroke="#E5B5C7" stroke-width="2" fill="none" />
+          <path d="M 190 100 C 230 120, 260 120, 300 120" stroke="#701A3D" stroke-width="1.8" fill="none" />
+          <path d="M 170 120 L 170 190" stroke="#701A3D" stroke-width="2" fill="none" />
+          <path d="M 220 210 L 290 210" stroke="#C77B9B" stroke-width="2" fill="none" />
+
+          <!-- Nodes -->
+          <rect x="15" y="68" width="65" height="34" rx="8" fill="#200D18" stroke="#C77B9B" stroke-opacity="0.3" />
+          <text x="47" y="89" text-anchor="middle" font-family="'SF Mono', monospace" font-size="10" fill="#F8F0F3">Client</text>
+
+          <rect x="130" y="65" width="85" height="40" rx="8" fill="#380E23" stroke="#C77B9B" stroke-opacity="0.5" />
+          <text x="172" y="86" text-anchor="middle" font-family="'SF Mono', monospace" font-size="10" fill="#FFFFFF" font-weight="600">Express API</text>
+          <text x="172" y="98" text-anchor="middle" font-family="'SF Mono', monospace" font-size="8.5" fill="#E5B5C7">JWT Guard</text>
+
+          <!-- Redis Cache Node -->
+          <rect x="290" y="25" width="105" height="34" rx="8" fill="#451126" stroke="#E5B5C7" stroke-opacity="0.5" />
+          <text x="342" y="43" text-anchor="middle" font-family="'SF Mono', monospace" font-size="10" fill="#FFFFFF" font-weight="600">Redis Cache</text>
+          <text x="342" y="54" text-anchor="middle" font-family="'SF Mono', monospace" font-size="8" fill="#E5B5C7">150ms HIT</text>
+
+          <!-- MongoDB DB Node -->
+          <rect x="290" y="103" width="105" height="34" rx="8" fill="#1C0915" stroke="#C77B9B" stroke-opacity="0.3" />
+          <text x="342" y="121" text-anchor="middle" font-family="'SF Mono', monospace" font-size="10" fill="#B6A3AC">MongoDB</text>
+          <text x="342" y="132" text-anchor="middle" font-family="'SF Mono', monospace" font-size="8" fill="#B6A3AC">Cache-aside</text>
+
+          <!-- BullMQ Worker Queue -->
+          <rect x="120" y="190" width="100" height="40" rx="8" fill="#260F1E" stroke="#C77B9B" stroke-opacity="0.4" />
+          <text x="170" y="211" text-anchor="middle" font-family="'SF Mono', monospace" font-size="10" fill="#F8F0F3" font-weight="600">BullMQ Queue</text>
+          <text x="170" y="223" text-anchor="middle" font-family="'SF Mono', monospace" font-size="8" fill="#C77B9B">Async Jobs</text>
+
+          <!-- Stripe Webhook Worker -->
+          <rect x="290" y="190" width="105" height="40" rx="8" fill="#380E23" stroke="#E5B5C7" stroke-opacity="0.6" />
+          <text x="342" y="211" text-anchor="middle" font-family="'SF Mono', monospace" font-size="10" fill="#FFFFFF" font-weight="600">Stripe Webhooks</text>
+          <text x="342" y="223" text-anchor="middle" font-family="'SF Mono', monospace" font-size="8" fill="#E5B5C7">Verified Events</text>
+
+          <!-- Animated Moving Dot -->
+          <circle r="4" fill="#E5B5C7">
+            <animateMotion path="M 60 85 L 140 85 C 190 65, 230 40, 300 40 L 370 40 L 370 120 L 170 120 L 170 190 L 300 210" 
+                           dur="5.5s" repeatCount="indefinite" />
+          </circle>
+        </g>
+        
+</svg>

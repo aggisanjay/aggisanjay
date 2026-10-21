@@ -1,0 +1,45 @@
+name: Update Commit Log & Profile Assets
+
+on:
+  schedule:
+    # Run daily at midnight UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - 'scripts/**'
+      - 'public/**'
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-assets:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Regenerate Profile SVG Assets
+        run: |
+          python scripts/generate_assets.py
+
+      - name: Commit and Push if Changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add assets/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore(assets): update daily contribution matrix & SVG assets [skip ci]"
+            git push
+          fi

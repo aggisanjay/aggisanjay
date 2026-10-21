@@ -1,0 +1,127 @@
+<svg width="1200" height="120" viewBox="0 0 1200 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>04 TOOLKIT - Languages, frameworks, systems.</title>
+  <desc>Section header banner for Languages, frameworks, systems.</desc>
+  
+  <defs>
+    
+  <style>
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes sheenSweep {
+      0% { stop-color: #C77B9B; }
+      50% { stop-color: #F8E2EC; }
+      100% { stop-color: #C77B9B; }
+    }
+    @keyframes sheenGradMove {
+      0% { x1: 0%; x2: 100%; }
+      50% { x1: 50%; x2: 150%; }
+      100% { x1: 0%; x2: 100%; }
+    }
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.6; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.15); }
+    }
+    @keyframes scanline {
+      0% { transform: translateX(-1200px); }
+      100% { transform: translateX(1200px); }
+    }
+    @keyframes orbitDot {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    @keyframes dashFlow {
+      to { stroke-dashoffset: -40; }
+    }
+    .fade-in { animation: fadeIn 0.8s ease-out forwards; }
+    .cursor-blink { animation: blink 1s infinite; }
+    .pulse { animation: pulseGlow 3s ease-in-out infinite; }
+    .orbit-spin { transform-origin: 935px 245px; animation: orbitDot 24s linear infinite; }
+    
+    @media (prefers-reduced-motion: reduce) {
+      *, .fade-in, .cursor-blink, .pulse, .orbit-spin {
+        animation: none !important;
+        transform: none !important;
+      }
+    }
+  </style>
+
+    <!-- Background linear gradient -->
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#190B12" />
+      <stop offset="100%" stop-color="#10070C" />
+    </linearGradient>
+
+    <!-- Radial wine glow top-right -->
+    <radialGradient id="radialGlow" cx="88%" cy="18%" r="65%">
+      <stop offset="0%" stop-color="#701A3D" stop-opacity="0.32" />
+      <stop offset="50%" stop-color="#451126" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#190B12" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Sheen gradient for italic words -->
+    <linearGradient id="sheen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E5B5C7" />
+      <stop offset="50%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#C77B9B" />
+      <animate attributeName="x1" values="0%;60%;0%" dur="6s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="100%;160%;100%" dur="6s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <!-- Pill / Chip Gradient -->
+    <linearGradient id="chipBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#260F1E" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#160811" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Divider Line Gradient -->
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C77B9B" stop-opacity="0.02" />
+      <stop offset="25%" stop-color="#C77B9B" stop-opacity="0.25" />
+      <stop offset="50%" stop-color="#E5B5C7" stop-opacity="0.6" />
+      <stop offset="75%" stop-color="#C77B9B" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#C77B9B" stop-opacity="0.02" />
+    </linearGradient>
+
+    <!-- Faint 40px grid pattern -->
+    <pattern id="grid40" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#C77B9B" stroke-opacity="0.045" stroke-width="1" />
+    </pattern>
+
+    <!-- Subtle Drop Shadow -->
+    <filter id="glowDrop" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+
+  <!-- Header background container -->
+  <rect width="1200" height="120" rx="14" fill="#10070C" fill-opacity="0.4" />
+  <rect width="1200" height="120" rx="14" fill="url(#grid40)" />
+
+  <!-- Top Kicker Row -->
+  <g class="fade-in">
+    <!-- Left index label -->
+    <text x="35" y="42" font-family="'SF Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="12" letter-spacing="3.2" fill="#C77B9B" font-weight="600">04 TOOLKIT</text>
+    
+    <!-- Right descriptive label -->
+    <text x="1165" y="42" text-anchor="end" font-family="'SF Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="11" letter-spacing="2.6" fill="#B6A3AC" font-weight="500">MODERN STACK · ARCHITECTURAL DEPTH</text>
+  </g>
+
+  <!-- Big Serif Title -->
+  <g class="fade-in">
+    <text x="35" y="86" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="300" fill="#F8F0F3" letter-spacing="-0.3">
+      Languages, frameworks, <tspan font-style="italic" fill="url(#sheen)">systems.</tspan>
+    </text>
+  </g>
+
+  <!-- Horizontal divider line with glowing central node -->
+  <line x1="35" y1="112" x2="1165" y2="112" stroke="url(#lineGrad)" stroke-width="1.2" />
+  <circle cx="580" cy="112" r="8" fill="#E5B5C7" fill-opacity="0.15" class="pulse" />
+  <circle cx="580" cy="112" r="3.5" fill="#E5B5C7" />
+</svg>

@@ -1,0 +1,228 @@
+<svg width="1200" height="370" viewBox="0 0 1200 370" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Curalink - 01 · MULTI-SOURCE RESEARCH RAG</title>
+  <desc>Project showcase card for Curalink: AI Medical Research Assistant with parallel multi-database ingestion &amp; zero-hallucination reporting.</desc>
+  
+  <defs>
+    
+  <style>
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes sheenSweep {
+      0% { stop-color: #C77B9B; }
+      50% { stop-color: #F8E2EC; }
+      100% { stop-color: #C77B9B; }
+    }
+    @keyframes sheenGradMove {
+      0% { x1: 0%; x2: 100%; }
+      50% { x1: 50%; x2: 150%; }
+      100% { x1: 0%; x2: 100%; }
+    }
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.6; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.15); }
+    }
+    @keyframes scanline {
+      0% { transform: translateX(-1200px); }
+      100% { transform: translateX(1200px); }
+    }
+    @keyframes orbitDot {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    @keyframes dashFlow {
+      to { stroke-dashoffset: -40; }
+    }
+    .fade-in { animation: fadeIn 0.8s ease-out forwards; }
+    .cursor-blink { animation: blink 1s infinite; }
+    .pulse { animation: pulseGlow 3s ease-in-out infinite; }
+    .orbit-spin { transform-origin: 935px 245px; animation: orbitDot 24s linear infinite; }
+    
+    @media (prefers-reduced-motion: reduce) {
+      *, .fade-in, .cursor-blink, .pulse, .orbit-spin {
+        animation: none !important;
+        transform: none !important;
+      }
+    }
+  </style>
+
+    <!-- Background linear gradient -->
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#190B12" />
+      <stop offset="100%" stop-color="#10070C" />
+    </linearGradient>
+
+    <!-- Radial wine glow top-right -->
+    <radialGradient id="radialGlow" cx="88%" cy="18%" r="65%">
+      <stop offset="0%" stop-color="#701A3D" stop-opacity="0.32" />
+      <stop offset="50%" stop-color="#451126" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#190B12" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Sheen gradient for italic words -->
+    <linearGradient id="sheen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E5B5C7" />
+      <stop offset="50%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#C77B9B" />
+      <animate attributeName="x1" values="0%;60%;0%" dur="6s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="100%;160%;100%" dur="6s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <!-- Pill / Chip Gradient -->
+    <linearGradient id="chipBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#260F1E" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#160811" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Divider Line Gradient -->
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C77B9B" stop-opacity="0.02" />
+      <stop offset="25%" stop-color="#C77B9B" stop-opacity="0.25" />
+      <stop offset="50%" stop-color="#E5B5C7" stop-opacity="0.6" />
+      <stop offset="75%" stop-color="#C77B9B" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#C77B9B" stop-opacity="0.02" />
+    </linearGradient>
+
+    <!-- Faint 40px grid pattern -->
+    <pattern id="grid40" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#C77B9B" stroke-opacity="0.045" stroke-width="1" />
+    </pattern>
+
+    <!-- Subtle Drop Shadow -->
+    <filter id="glowDrop" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+
+  <!-- Card Frame -->
+  <rect width="1200" height="370" rx="20" fill="url(#cardBg)" stroke="#C77B9B" stroke-opacity="0.16" stroke-width="1" />
+  <rect width="1200" height="370" rx="20" fill="url(#grid40)" />
+  <rect width="1200" height="370" rx="20" fill="url(#radialGlow)" />
+
+  <!-- Left Content Column -->
+  <g class="fade-in">
+    <!-- Index · Category label -->
+    <text x="55" y="55" font-family="'SF Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="12" letter-spacing="2.8" fill="#C77B9B" font-weight="600">01 · MULTI-SOURCE RESEARCH RAG</text>
+
+    <!-- 52px Serif Project Name -->
+    <text x="55" y="112" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="300" fill="#F8F0F3" letter-spacing="-0.5">
+      Curalink<tspan font-style="italic" fill="url(#sheen)">.</tspan>
+    </text>
+
+    <!-- One-line Description -->
+    <text x="55" y="145" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14.5" fill="#F8F0F3" font-weight="400">
+      AI Medical Research Assistant with parallel multi-database ingestion &amp; zero-hallucination reporting.
+    </text>
+
+    <!-- BUILT > Mono Line -->
+    <text x="55" y="180" font-family="'SF Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="11.5" letter-spacing="1.8" fill="#B6A3AC">
+      <tspan fill="#C77B9B" font-weight="600">BUILT ›</tspan> MULTI-TIER FALLBACK ARCHITECTURE (HUGGINGFACE → OLLAMA → LOCAL) · EVIDENCE RANKING
+    </text>
+
+    <!-- 3 Big Stats Row -->
+    <g transform="translate(55, 205)">
+      <!-- Stat 1 -->
+      <g>
+        <text x="0" y="32" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="300" fill="#F8F0F3">3</text>
+        <text x="0" y="52" font-family="'SF Mono', ui-monospace, monospace" font-size="10.5" letter-spacing="1.2" fill="#B6A3AC">Parallel Research Sources</text>
+      </g>
+      <!-- Stat 2 -->
+      <g transform="translate(225, 0)">
+        <text x="0" y="32" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="300" fill="#F8F0F3">3-Tier</text>
+        <text x="0" y="52" font-family="'SF Mono', ui-monospace, monospace" font-size="10.5" letter-spacing="1.2" fill="#B6A3AC">Resilient LLM Fallback</text>
+      </g>
+      <!-- Stat 3 -->
+      <g transform="translate(450, 0)">
+        <text x="0" y="32" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="300" fill="#F8F0F3">100%</text>
+        <text x="0" y="52" font-family="'SF Mono', ui-monospace, monospace" font-size="10.5" letter-spacing="1.2" fill="#B6A3AC">Evidence-Grounded Citations</text>
+      </g>
+    </g>
+
+    <!-- Tech Chips Row -->
+    <g>
+      
+        <rect x="55" y="312" width="64" height="26" rx="13" fill="url(#chipBg)" stroke="#C77B9B" stroke-opacity="0.22" stroke-width="1" />
+        <text x="87.0" y="329" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#E5B5C7">React</text>
+        
+        <rect x="129" y="312" width="80" height="26" rx="13" fill="url(#chipBg)" stroke="#C77B9B" stroke-opacity="0.22" stroke-width="1" />
+        <text x="169.0" y="329" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#E5B5C7">Node.js</text>
+        
+        <rect x="219" y="312" width="80" height="26" rx="13" fill="url(#chipBg)" stroke="#C77B9B" stroke-opacity="0.22" stroke-width="1" />
+        <text x="259.0" y="329" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#E5B5C7">MongoDB</text>
+        
+        <rect x="309" y="312" width="144" height="26" rx="13" fill="url(#chipBg)" stroke="#C77B9B" stroke-opacity="0.22" stroke-width="1" />
+        <text x="381.0" y="329" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#E5B5C7">HuggingFace API</text>
+        
+        <rect x="463" y="312" width="72" height="26" rx="13" fill="url(#chipBg)" stroke="#C77B9B" stroke-opacity="0.22" stroke-width="1" />
+        <text x="499.0" y="329" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#E5B5C7">Ollama</text>
+        
+        <rect x="545" y="312" width="104" height="26" rx="13" fill="url(#chipBg)" stroke="#C77B9B" stroke-opacity="0.22" stroke-width="1" />
+        <text x="597.0" y="329" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#E5B5C7">PubMed API</text>
+        
+        <rect x="659" y="312" width="88" height="26" rx="13" fill="url(#chipBg)" stroke="#C77B9B" stroke-opacity="0.22" stroke-width="1" />
+        <text x="703.0" y="329" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, Monaco, Consolas, monospace" font-size="11" fill="#E5B5C7">OpenAlex</text>
+        
+    </g>
+  </g>
+
+  <!-- Right Side Node-Flow Diagram -->
+  
+        <!-- Node-flow diagram for Curalink RAG -->
+        <g transform="translate(730, 45)">
+          <rect width="415" height="280" rx="14" fill="#13050D" stroke="#C77B9B" stroke-opacity="0.16" stroke-width="1" />
+          <text x="25" y="30" font-family="'SF Mono', ui-monospace, monospace" font-size="10" letter-spacing="2" fill="#C77B9B">ARCHITECTURE · PARALLEL RAG</text>
+
+          <!-- Flow Paths -->
+          <path id="path1" d="M 60 90 L 150 90" stroke="#701A3D" stroke-width="2" fill="none" />
+          <path id="path2a" d="M 150 90 C 200 90, 200 55, 270 55" stroke="#701A3D" stroke-width="1.8" fill="none" />
+          <path id="path2b" d="M 150 90 L 270 90" stroke="#701A3D" stroke-width="1.8" fill="none" />
+          <path id="path2c" d="M 150 90 C 200 90, 200 125, 270 125" stroke="#701A3D" stroke-width="1.8" fill="none" />
+          <path id="path3" d="M 330 90 C 360 90, 360 200, 290 200 L 170 200" stroke="#C77B9B" stroke-opacity="0.6" stroke-width="2" stroke-dasharray="4 4" fill="none" />
+          <path id="path4" d="M 110 200 L 60 200" stroke="#C77B9B" stroke-width="2" fill="none" />
+
+          <!-- Nodes -->
+          <!-- Client Query -->
+          <rect x="20" y="72" width="65" height="34" rx="8" fill="#200D18" stroke="#C77B9B" stroke-opacity="0.3" />
+          <text x="52" y="93" text-anchor="middle" font-family="'SF Mono', monospace" font-size="10" fill="#F8F0F3">Query</text>
+
+          <!-- Router / Orchestrator -->
+          <rect x="130" y="70" width="75" height="38" rx="8" fill="#380E23" stroke="#C77B9B" stroke-opacity="0.5" />
+          <text x="167" y="93" text-anchor="middle" font-family="'SF Mono', monospace" font-size="10.5" fill="#FFFFFF" font-weight="600">Router</text>
+
+          <!-- 3 Sources -->
+          <rect x="270" y="42" width="95" height="26" rx="6" fill="#1C0915" stroke="#C77B9B" stroke-opacity="0.25" />
+          <text x="317" y="59" text-anchor="middle" font-family="'SF Mono', monospace" font-size="9.5" fill="#E5B5C7">PubMed API</text>
+
+          <rect x="270" y="77" width="95" height="26" rx="6" fill="#1C0915" stroke="#C77B9B" stroke-opacity="0.25" />
+          <text x="317" y="94" text-anchor="middle" font-family="'SF Mono', monospace" font-size="9.5" fill="#E5B5C7">OpenAlex</text>
+
+          <rect x="270" y="112" width="95" height="26" rx="6" fill="#1C0915" stroke="#C77B9B" stroke-opacity="0.25" />
+          <text x="317" y="129" text-anchor="middle" font-family="'SF Mono', monospace" font-size="9.5" fill="#E5B5C7">ClinicalTrials</text>
+
+          <!-- Fallback Synthesizer Node -->
+          <rect x="150" y="180" width="140" height="40" rx="8" fill="#451126" stroke="#C77B9B" stroke-opacity="0.6" />
+          <text x="220" y="200" text-anchor="middle" font-family="'SF Mono', monospace" font-size="10.5" fill="#FFFFFF" font-weight="600">Fallback Synthesizer</text>
+          <text x="220" y="213" text-anchor="middle" font-family="'SF Mono', monospace" font-size="8.5" fill="#E5B5C7">HF → Ollama → Local</text>
+
+          <!-- Output Node -->
+          <rect x="15" y="183" width="75" height="34" rx="8" fill="#200D18" stroke="#E5B5C7" stroke-opacity="0.5" />
+          <text x="52" y="204" text-anchor="middle" font-family="'SF Mono', monospace" font-size="10" fill="#E5B5C7">Verified Rep</text>
+
+          <!-- Animated Moving Dot along the pipeline -->
+          <circle r="4" fill="#E5B5C7">
+            <animateMotion path="M 60 90 L 150 90 C 200 90, 200 55, 270 55 L 340 55 C 370 55, 370 200, 290 200 L 170 200 L 60 200" 
+                           dur="5s" repeatCount="indefinite" />
+          </circle>
+          <circle r="8" fill="#E5B5C7" fill-opacity="0.3">
+            <animateMotion path="M 60 90 L 150 90 C 200 90, 200 55, 270 55 L 340 55 C 370 55, 370 200, 290 200 L 170 200 L 60 200" 
+                           dur="5s" repeatCount="indefinite" />
+          </circle>
+        </g>
+        
+</svg>
