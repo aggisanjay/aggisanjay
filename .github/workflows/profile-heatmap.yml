@@ -1,8 +1,8 @@
-name: Refresh profile heatmap
+name: Refresh profile heatmap & GitHub glance
 
 on:
   schedule:
-    # Daily at 05:30 UTC, before the Pages deploy at 06:00
+    # Daily at 05:30 UTC
     - cron: "30 5 * * *"
   workflow_dispatch: {}
 
@@ -23,23 +23,33 @@ jobs:
         with:
           node-version: 22
 
-      # Public calendar data only; no token is written anywhere.
-      - name: Fetch contributions
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # Fetch live GitHub contribution calendar & telemetry
+      - name: Fetch contributions & glance telemetry
         env:
           GH_USERNAME: ${{ github.repository_owner }}
-        run: node scripts/fetch-contributions.mjs
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node scripts/fetch-contributions.mjs
+          node scripts/fetch-github-glance.mjs
 
-      - name: Render heatmap SVG
-        run: node scripts/build-heatmap-svg.mjs
+      # Re-render animated contribution heatmap & SVGs
+      - name: Render SVGs
+        run: |
+          node scripts/build-heatmap-svg.mjs
+          python scripts/generate_svgs.py
 
       - name: Commit if changed
         run: |
-          git add site/data/contributions.json assets/contribution-snake.svg
+          git add site/data/ assets/
           if git diff --cached --quiet; then
             echo "No changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "chore: refresh contribution heatmap"
+          git commit -m "chore: refresh daily contribution heatmap & real-time github telemetry"
           git push

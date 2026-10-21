@@ -1,15 +1,107 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-label="ModelSuite AI experience. Full-Stack Engineer. 60+ production features, fixes and workflow improvements across FrameX and Talent Portal.">
-<title>ModelSuite AI experience</title><desc>Full-Stack Engineer. 60+ production features, fixes and workflow improvements across FrameX and Talent Portal.</desc>
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#190B12"/><stop offset="1" stop-color="#10070C"/></linearGradient>
-<radialGradient id="glow" cx="80%" cy="15%" r="75%"><stop offset="0" stop-color="#701A3D" stop-opacity=".6"/><stop offset="1" stop-color="#451126" stop-opacity="0"/></radialGradient>
-<linearGradient id="sheen" gradientUnits="userSpaceOnUse" x1="-300" y1="0" x2="0" y2="0"><stop offset="0" stop-color="#E5B5C7"/><stop offset=".5" stop-color="#F8F0F3"/><stop offset="1" stop-color="#E5B5C7"/><animateTransform attributeName="gradientTransform" type="translate" values="0 0;1500 0;1500 0" keyTimes="0;.4;1" dur="7s" begin="1.5s" repeatCount="indefinite"/></linearGradient>
-<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#C77B9B" stroke-opacity=".06"/></pattern></defs>
-<style>.serif{font-family:Georgia,"Iowan Old Style","Palatino Linotype","Times New Roman",serif}
-.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
-.sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
-.in{animation:in 1s cubic-bezier(.16,1,.3,1) both}@keyframes in{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style><rect width="1200" height="370" rx="20" fill="url(#bg)"/><rect width="1200" height="370" rx="20" fill="url(#glow)"/><rect width="1200" height="370" rx="20" fill="url(#grid)"/><rect x=".5" y=".5" width="1199" height="369" rx="19.5" fill="none" stroke="#C77B9B" stroke-opacity=".16"/><text class="mono" x="56" y="62" font-size="12" letter-spacing="3" fill="#C77B9B">FULL-STACK ENGINEER · FRAMEX · TALENT PORTAL</text>
-<text class="serif" x="54" y="124" font-size="58" font-weight="300" letter-spacing="-1.5" fill="#F8F0F3">ModelSuite <tspan font-style="italic" fill="url(#sheen)">AI</tspan></text>
-<text class="sans" x="56" y="166" font-size="18" fill="#B6A3AC">Frontend, backend, auth and AI media-generation workflows.</text>
-<path d="M56 196H590" stroke="#C77B9B" stroke-opacity=".3"/>
-<text class="serif" x="56" y="262" font-size="64" font-weight="300" fill="#F8F0F3">60+</text><text class="sans" x="56" y="290" font-size="15" fill="#B6A3AC">production features, bug fixes and workflow improvements</text><g transform="translate(640 60)"><rect width="520" height="54" rx="12" fill="#190B12" stroke="#C77B9B" stroke-opacity=".28"/><rect width="3" height="54" fill="#C77B9B"/><text class="serif" x="22" y="24" font-size="20" font-weight="300" fill="#F8F0F3">React.js</text><text class="sans" x="22" y="43" font-size="12" fill="#B6A3AC">dashboards · Asset Management · Review Center</text></g><g transform="translate(640 126)"><rect width="520" height="54" rx="12" fill="#190B12" stroke="#C77B9B" stroke-opacity=".28"/><rect width="3" height="54" fill="#C77B9B"/><text class="serif" x="22" y="24" font-size="20" font-weight="300" fill="#F8F0F3">Node / Express</text><text class="sans" x="22" y="43" font-size="12" fill="#B6A3AC">models · services · REST APIs · permissions</text></g><g transform="translate(640 192)"><rect width="520" height="54" rx="12" fill="#190B12" stroke="#C77B9B" stroke-opacity=".28"/><rect width="3" height="54" fill="#C77B9B"/><text class="serif" x="22" y="24" font-size="20" font-weight="300" fill="#F8F0F3">AI media workflows</text><text class="sans" x="22" y="43" font-size="12" fill="#B6A3AC">batch generation · variations · async processing</text></g><g transform="translate(640 258)"><rect width="520" height="54" rx="12" fill="#190B12" stroke="#C77B9B" stroke-opacity=".28"/><rect width="3" height="54" fill="#C77B9B"/><text class="serif" x="22" y="24" font-size="20" font-weight="300" fill="#F8F0F3">Production hygiene</text><text class="sans" x="22" y="43" font-size="12" fill="#B6A3AC">testing · linting · PRs · staging · verification</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-label="Experience: ModelSuite AI Full-Stack AI Engineer. 60+ Production Features Shipped.">
+  <title>Experience: ModelSuite AI</title>
+  <desc>Full-Stack AI Engineer at ModelSuite AI with 60+ production features across FrameX and Talent Portal.</desc>
+  <defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#190B12"/>
+    <stop offset="1" stop-color="#10070C"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="80%" cy="15%" r="75%">
+    <stop offset="0" stop-color="#701A3D" stop-opacity=".6"/>
+    <stop offset="1" stop-color="#451126" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="sheen" gradientUnits="userSpaceOnUse" x1="-300" y1="0" x2="0" y2="0">
+    <stop offset="0" stop-color="#E5B5C7"/>
+    <stop offset=".5" stop-color="#F8F0F3"/>
+    <stop offset="1" stop-color="#E5B5C7"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="0 0;1500 0;1500 0" keyTimes="0;.4;1" dur="7s" begin="1.5s" repeatCount="indefinite"/>
+  </linearGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" fill="none" stroke="#C77B9B" stroke-opacity=".06"/>
+  </pattern>
+  <linearGradient id="line" gradientUnits="userSpaceOnUse" x1="40" y1="0" x2="1160" y2="0">
+    <stop offset="0" stop-color="#C77B9B"/>
+    <stop offset=".6" stop-color="#701A3D"/>
+    <stop offset="1" stop-color="#701A3D" stop-opacity="0"/>
+  </linearGradient>
+  <filter id="pulseGlow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+    <feMerge>
+      <feMergeNode in="coloredBlur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+</defs>
+  <style>
+  .serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+  .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+  .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+  .in { animation: in 1s cubic-bezier(.16,1,.3,1) both; }
+  @keyframes in { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+  .tbl {
+    stroke: #E5B5C7;
+    stroke-width: 1.5;
+    stroke-linecap: round;
+    stroke-dasharray: 150 850;
+    fill: none;
+    animation: tblRun 7s linear infinite;
+  }
+  @keyframes tblRun {
+    from { stroke-dashoffset: 1000; }
+    to { stroke-dashoffset: 0; }
+  }
+  .cursor { animation: blink 1.1s infinite; }
+  @keyframes blink { 0%, 50% { opacity: 1; } 50.1%, 100% { opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) {
+    *, .tbl, .in, .cursor { animation: none !important; }
+    .tbl { display: none !important; }
+  }
+</style>
+  <rect width="1200" height="370" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="370" rx="20" fill="url(#glow)"/>
+  <rect width="1200" height="370" rx="20" fill="url(#grid)"/>
+  <rect x=".5" y=".5" width="1199" height="369" rx="19.5" fill="none" stroke="#C77B9B" stroke-opacity=".16"/>
+  <rect class="tbl" x=".5" y=".5" width="1199" height="369" rx="19.5" pathLength="1000" style="animation-delay: -1.7s;"/>
+
+  <!-- Left Side: Role, Company & Big Number -->
+  <text class="mono" x="56" y="62" font-size="12" letter-spacing="3" fill="#C77B9B">FULL-STACK AI ENGINEER · 2024 – PRESENT</text>
+  <text class="serif" x="54" y="118" font-size="52" font-weight="300" letter-spacing="-1.5" fill="#F8F0F3">ModelSuite AI</text>
+  <text class="sans" x="56" y="156" font-size="16" fill="#B6A3AC">Architecting production platforms, AI workflow engines, and low-latency APIs.</text>
+
+  <g transform="translate(56 185)">
+    <text class="serif" x="0" y="74" font-size="82" font-weight="300" letter-spacing="-2" fill="#E5B5C7">60<tspan fill="#C77B9B">+</tspan></text>
+    <text class="mono" x="156" y="38" font-size="11" letter-spacing="2" fill="#F8F0F3">PRODUCTION FEATURES</text>
+    <text class="sans" x="156" y="62" font-size="13" fill="#B6A3AC">shipped across FrameX Studio &amp; Talent Portal</text>
+    <text class="mono" x="156" y="84" font-size="11" letter-spacing="1.5" fill="#C77B9B">FULL-LIFECYCLE OWNERSHIP · REDIS CACHING · ZERO DOWNTIME</text>
+  </g>
+
+  <!-- Right Side: 4 Work Deliverable Rows -->
+  
+    <g transform="translate(640 45)">
+      <rect width="510" height="62" rx="10" fill="#190B12" stroke="#C77B9B" stroke-opacity=".25"/>
+      <rect class="tbl" width="510" height="62" rx="10" pathLength="1000" style="animation-delay: -1.20s;"/>
+      <text class="mono" x="18" y="24" font-size="10" letter-spacing="2" fill="#E5B5C7">01 · FRAMEX AI STUDIO</text>
+      <text class="sans" x="18" y="47" font-size="12.5" fill="#F8F0F3">Interactive canvas, layer management, undo/redo state machine in Next.js</text>
+    </g>
+
+    <g transform="translate(640 117)">
+      <rect width="510" height="62" rx="10" fill="#190B12" stroke="#C77B9B" stroke-opacity=".25"/>
+      <rect class="tbl" width="510" height="62" rx="10" pathLength="1000" style="animation-delay: -2.80s;"/>
+      <text class="mono" x="18" y="24" font-size="10" letter-spacing="2" fill="#E5B5C7">02 · TALENT PORTAL</text>
+      <text class="sans" x="18" y="47" font-size="12.5" fill="#F8F0F3">RAG candidate match scoring, resume parsing and vector search pipelines</text>
+    </g>
+
+    <g transform="translate(640 189)">
+      <rect width="510" height="62" rx="10" fill="#190B12" stroke="#C77B9B" stroke-opacity=".25"/>
+      <rect class="tbl" width="510" height="62" rx="10" pathLength="1000" style="animation-delay: -4.40s;"/>
+      <text class="mono" x="18" y="24" font-size="10" letter-spacing="2" fill="#E5B5C7">03 · LATENCY OPTIMIZATION</text>
+      <text class="sans" x="18" y="47" font-size="12.5" fill="#F8F0F3">Redis caching + query indexing reduced p95 response from 450ms to 150ms</text>
+    </g>
+
+    <g transform="translate(640 261)">
+      <rect width="510" height="62" rx="10" fill="#190B12" stroke="#C77B9B" stroke-opacity=".25"/>
+      <rect class="tbl" width="510" height="62" rx="10" pathLength="1000" style="animation-delay: -6.00s;"/>
+      <text class="mono" x="18" y="24" font-size="10" letter-spacing="2" fill="#E5B5C7">04 · PRODUCTION STANDARDS</text>
+      <text class="sans" x="18" y="47" font-size="12.5" fill="#F8F0F3">40+ REST endpoints, TypeScript strict mode, 99.8% service uptime</text>
+    </g>
+</svg>

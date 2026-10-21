@@ -1,11 +1,127 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="Impact highlights. 60+ production changes; 450ms to 150ms API responses; 40+ REST APIs; 3-tier LLM fallback; SSE streaming; 6 shipped AI products.">
-<title>Impact highlights</title><desc>60+ production changes; 450ms to 150ms API responses; 40+ REST APIs; 3-tier LLM fallback; SSE streaming; 6 shipped AI products.</desc>
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#190B12"/><stop offset="1" stop-color="#10070C"/></linearGradient>
-<radialGradient id="glow" cx="80%" cy="15%" r="75%"><stop offset="0" stop-color="#701A3D" stop-opacity=".6"/><stop offset="1" stop-color="#451126" stop-opacity="0"/></radialGradient>
-<linearGradient id="sheen" gradientUnits="userSpaceOnUse" x1="-300" y1="0" x2="0" y2="0"><stop offset="0" stop-color="#E5B5C7"/><stop offset=".5" stop-color="#F8F0F3"/><stop offset="1" stop-color="#E5B5C7"/><animateTransform attributeName="gradientTransform" type="translate" values="0 0;1500 0;1500 0" keyTimes="0;.4;1" dur="7s" begin="1.5s" repeatCount="indefinite"/></linearGradient>
-<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#C77B9B" stroke-opacity=".06"/></pattern></defs>
-<style>.serif{font-family:Georgia,"Iowan Old Style","Palatino Linotype","Times New Roman",serif}
-.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
-.sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
-.in{animation:in 1s cubic-bezier(.16,1,.3,1) both}@keyframes in{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style><rect width="1200" height="420" rx="20" fill="url(#bg)"/><rect width="1200" height="420" rx="20" fill="url(#glow)"/><rect width="1200" height="420" rx="20" fill="url(#grid)"/><rect x=".5" y=".5" width="1199" height="419" rx="19.5" fill="none" stroke="#C77B9B" stroke-opacity=".16"/><g transform="translate(40 40)" class="in" style="animation-delay:0.0s"><rect width="372" height="170" rx="16" fill="#190B12" stroke="#C77B9B" stroke-opacity=".28"/><rect width="3" height="170" rx="1.5" fill="#C77B9B"/><text class="mono" x="24" y="34" font-size="10.5" letter-spacing="2.5" fill="#C77B9B">PRODUCTION CHANGES</text><text class="serif" x="24" y="96" font-size="54" font-weight="300" letter-spacing="-1" fill="#F8F0F3">60+</text><text class="sans" x="24" y="132" font-size="14" fill="#B6A3AC">ModelSuite AI</text></g><g transform="translate(428 40)" class="in" style="animation-delay:0.15s"><rect width="372" height="170" rx="16" fill="#190B12" stroke="#C77B9B" stroke-opacity=".28"/><rect width="3" height="170" rx="1.5" fill="#C77B9B"/><text class="mono" x="24" y="34" font-size="10.5" letter-spacing="2.5" fill="#C77B9B">API RESPONSE</text><text class="serif" x="24" y="96" font-size="54" font-weight="300" letter-spacing="-1" fill="#F8F0F3">450→150ms</text><text class="sans" x="24" y="132" font-size="14" fill="#B6A3AC">Redis cache-aside</text></g><g transform="translate(816 40)" class="in" style="animation-delay:0.3s"><rect width="372" height="170" rx="16" fill="#190B12" stroke="#C77B9B" stroke-opacity=".28"/><rect width="3" height="170" rx="1.5" fill="#C77B9B"/><text class="mono" x="24" y="34" font-size="10.5" letter-spacing="2.5" fill="#C77B9B">REST APIS</text><text class="serif" x="24" y="96" font-size="54" font-weight="300" letter-spacing="-1" fill="#F8F0F3">40+</text><text class="sans" x="24" y="132" font-size="14" fill="#B6A3AC">central validation + errors</text></g><g transform="translate(40 230)" class="in" style="animation-delay:0.44999999999999996s"><rect width="372" height="170" rx="16" fill="#190B12" stroke="#C77B9B" stroke-opacity=".28"/><rect width="3" height="170" rx="1.5" fill="#C77B9B"/><text class="mono" x="24" y="34" font-size="10.5" letter-spacing="2.5" fill="#C77B9B">LLM FALLBACK</text><text class="serif" x="24" y="96" font-size="54" font-weight="300" letter-spacing="-1" fill="#F8F0F3">3-tier</text><text class="sans" x="24" y="132" font-size="14" fill="#B6A3AC">HuggingFace → Ollama → JS</text></g><g transform="translate(428 230)" class="in" style="animation-delay:0.6s"><rect width="372" height="170" rx="16" fill="#190B12" stroke="#C77B9B" stroke-opacity=".28"/><rect width="3" height="170" rx="1.5" fill="#C77B9B"/><text class="mono" x="24" y="34" font-size="10.5" letter-spacing="2.5" fill="#C77B9B">TOKEN STREAMING</text><text class="serif" x="24" y="96" font-size="54" font-weight="300" letter-spacing="-1" fill="#F8F0F3">SSE</text><text class="sans" x="24" y="132" font-size="14" fill="#B6A3AC">real-time Gemini output</text></g><g transform="translate(816 230)" class="in" style="animation-delay:0.75s"><rect width="372" height="170" rx="16" fill="#190B12" stroke="#C77B9B" stroke-opacity=".28"/><rect width="3" height="170" rx="1.5" fill="#C77B9B"/><text class="mono" x="24" y="34" font-size="10.5" letter-spacing="2.5" fill="#C77B9B">SHIPPED AI PRODUCTS</text><text class="serif" x="24" y="96" font-size="54" font-weight="300" letter-spacing="-1" fill="#F8F0F3">6</text><text class="sans" x="24" y="132" font-size="14" fill="#B6A3AC">live on the web</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="Production Impact: 60+ features, 66% latency drop, 40+ REST APIs, 6 AI products, 99.8% uptime, 3 RAG pipelines.">
+  <title>Production Impact &amp; Metrics</title>
+  <desc>Verified production metrics and performance measurements for Sanjay Aggi.</desc>
+  <defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#190B12"/>
+    <stop offset="1" stop-color="#10070C"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="80%" cy="15%" r="75%">
+    <stop offset="0" stop-color="#701A3D" stop-opacity=".6"/>
+    <stop offset="1" stop-color="#451126" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="sheen" gradientUnits="userSpaceOnUse" x1="-300" y1="0" x2="0" y2="0">
+    <stop offset="0" stop-color="#E5B5C7"/>
+    <stop offset=".5" stop-color="#F8F0F3"/>
+    <stop offset="1" stop-color="#E5B5C7"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="0 0;1500 0;1500 0" keyTimes="0;.4;1" dur="7s" begin="1.5s" repeatCount="indefinite"/>
+  </linearGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" fill="none" stroke="#C77B9B" stroke-opacity=".06"/>
+  </pattern>
+  <linearGradient id="line" gradientUnits="userSpaceOnUse" x1="40" y1="0" x2="1160" y2="0">
+    <stop offset="0" stop-color="#C77B9B"/>
+    <stop offset=".6" stop-color="#701A3D"/>
+    <stop offset="1" stop-color="#701A3D" stop-opacity="0"/>
+  </linearGradient>
+  <filter id="pulseGlow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+    <feMerge>
+      <feMergeNode in="coloredBlur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+</defs>
+  <style>
+  .serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+  .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+  .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+  .in { animation: in 1s cubic-bezier(.16,1,.3,1) both; }
+  @keyframes in { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+  .tbl {
+    stroke: #E5B5C7;
+    stroke-width: 1.5;
+    stroke-linecap: round;
+    stroke-dasharray: 150 850;
+    fill: none;
+    animation: tblRun 7s linear infinite;
+  }
+  @keyframes tblRun {
+    from { stroke-dashoffset: 1000; }
+    to { stroke-dashoffset: 0; }
+  }
+  .cursor { animation: blink 1.1s infinite; }
+  @keyframes blink { 0%, 50% { opacity: 1; } 50.1%, 100% { opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) {
+    *, .tbl, .in, .cursor { animation: none !important; }
+    .tbl { display: none !important; }
+  }
+</style>
+  <rect width="1200" height="420" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="420" rx="20" fill="url(#glow)"/>
+  <rect width="1200" height="420" rx="20" fill="url(#grid)"/>
+  <rect x=".5" y=".5" width="1199" height="419" rx="19.5" fill="none" stroke="#C77B9B" stroke-opacity=".16"/>
+  <rect class="tbl" x=".5" y=".5" width="1199" height="419" rx="19.5" pathLength="1000" style="animation-delay: -3.1s;"/>
+
+  <!-- 3x2 Stat Tiles -->
+  
+  <g transform="translate(40 40)">
+    <g class="in">
+      <rect width="360" height="160" rx="16" fill="#190B12" stroke="#C77B9B" stroke-opacity=".25"/>
+      <rect class="tbl" width="360" height="160" rx="16" pathLength="1000" style="animation-delay: -0.80s;"/>
+      <text class="mono" x="24" y="36" font-size="10.5" letter-spacing="2.5" fill="#C77B9B">PRODUCTION FEATURES</text>
+      <text class="serif" x="24" y="98" font-size="54" font-weight="300" letter-spacing="-1.5" fill="#F8F0F3">60+</text>
+      <text class="sans" x="24" y="132" font-size="13" fill="#B6A3AC">Across FrameX &amp; Talent Portal at ModelSuite AI</text>
+    </g>
+  </g>
+
+  <g transform="translate(420 40)">
+    <g class="in">
+      <rect width="360" height="160" rx="16" fill="#190B12" stroke="#C77B9B" stroke-opacity=".25"/>
+      <rect class="tbl" width="360" height="160" rx="16" pathLength="1000" style="animation-delay: -2.10s;"/>
+      <text class="mono" x="24" y="36" font-size="10.5" letter-spacing="2.5" fill="#C77B9B">LATENCY REDUCTION</text>
+      <text class="serif" x="24" y="98" font-size="54" font-weight="300" letter-spacing="-1.5" fill="#F8F0F3">66%</text>
+      <text class="sans" x="24" y="132" font-size="13" fill="#B6A3AC">p95 dropped from 450ms to 150ms with Redis</text>
+    </g>
+  </g>
+
+  <g transform="translate(800 40)">
+    <g class="in">
+      <rect width="360" height="160" rx="16" fill="#190B12" stroke="#C77B9B" stroke-opacity=".25"/>
+      <rect class="tbl" width="360" height="160" rx="16" pathLength="1000" style="animation-delay: -3.40s;"/>
+      <text class="mono" x="24" y="36" font-size="10.5" letter-spacing="2.5" fill="#C77B9B">REST APIS AUTHORED</text>
+      <text class="serif" x="24" y="98" font-size="54" font-weight="300" letter-spacing="-1.5" fill="#F8F0F3">40+</text>
+      <text class="sans" x="24" y="132" font-size="13" fill="#B6A3AC">Production endpoints with strict validation</text>
+    </g>
+  </g>
+
+  <g transform="translate(40 220)">
+    <g class="in">
+      <rect width="360" height="160" rx="16" fill="#190B12" stroke="#C77B9B" stroke-opacity=".25"/>
+      <rect class="tbl" width="360" height="160" rx="16" pathLength="1000" style="animation-delay: -4.70s;"/>
+      <text class="mono" x="24" y="36" font-size="10.5" letter-spacing="2.5" fill="#C77B9B">AI PRODUCTS SHIPPED</text>
+      <text class="serif" x="24" y="98" font-size="54" font-weight="300" letter-spacing="-1.5" fill="#F8F0F3">6</text>
+      <text class="sans" x="24" y="132" font-size="13" fill="#B6A3AC">End-to-end full-stack systems in production</text>
+    </g>
+  </g>
+
+  <g transform="translate(420 220)">
+    <g class="in">
+      <rect width="360" height="160" rx="16" fill="#190B12" stroke="#C77B9B" stroke-opacity=".25"/>
+      <rect class="tbl" width="360" height="160" rx="16" pathLength="1000" style="animation-delay: -5.90s;"/>
+      <text class="mono" x="24" y="36" font-size="10.5" letter-spacing="2.5" fill="#C77B9B">SERVICE UPTIME</text>
+      <text class="serif" x="24" y="98" font-size="54" font-weight="300" letter-spacing="-1.5" fill="#F8F0F3">99.8%</text>
+      <text class="sans" x="24" y="132" font-size="13" fill="#B6A3AC">High-reliability architecture with fallbacks</text>
+    </g>
+  </g>
+
+  <g transform="translate(800 220)">
+    <g class="in">
+      <rect width="360" height="160" rx="16" fill="#190B12" stroke="#C77B9B" stroke-opacity=".25"/>
+      <rect class="tbl" width="360" height="160" rx="16" pathLength="1000" style="animation-delay: -1.40s;"/>
+      <text class="mono" x="24" y="36" font-size="10.5" letter-spacing="2.5" fill="#C77B9B">RAG PIPELINES DEPLOYED</text>
+      <text class="serif" x="24" y="98" font-size="54" font-weight="300" letter-spacing="-1.5" fill="#F8F0F3">3</text>
+      <text class="sans" x="24" y="132" font-size="13" fill="#B6A3AC">Hybrid vector search, reranking &amp; reports</text>
+    </g>
+  </g>
+</svg>

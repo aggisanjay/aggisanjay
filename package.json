@@ -1,0 +1,14 @@
+{
+  "name": "aggisanjay-profile",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Sanjay Aggi - GitHub Profile README Assets & Automation",
+  "scripts": {
+    "fetch-contributions": "node scripts/fetch-contributions.mjs",
+    "build-heatmap": "node scripts/build-heatmap-svg.mjs",
+    "refresh-heatmap": "node scripts/fetch-contributions.mjs && node scripts/build-heatmap-svg.mjs"
+  },
+  "keywords": [],
+  "author": "Sanjay Aggi",
+  "license": "MIT"
+}

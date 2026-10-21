@@ -116,8 +116,12 @@
 
 <br/><br/>
 
-<!-- 07 COMMIT LOG -->
+<!-- 07 COMMIT LOG & GITHUB TELEMETRY -->
 <img src="assets/title-commits.svg" width="100%" alt="06 Commit Log — Real-time continuous delivery rhythm" />
+<img src="assets/github-glance.svg" width="100%" alt="GitHub at a glance: 1,374 commits, 35 repos, 10 stars, 2 PRs, 33 contributed repos" />
+
+<br/>
+
 <img src="assets/contribution-snake.svg" width="100%" alt="Automated 52-Week GitHub Contribution Heatmap Matrix with Animated Pulse Trace" />
 
 <br/><br/>

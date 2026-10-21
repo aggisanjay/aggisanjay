@@ -1,17 +1,118 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-label="Agentic Support Desk: Multi-step AI support agent with tool calling.. Built: LangGraph orchestration + web-search grounding + OAuth. Stack: React, TypeScript, LangChain, LangGraph, OpenAI, Gemini.">
-<title>Agentic Support Desk: Multi-step AI support agent with tool calling.</title><desc>Built: LangGraph orchestration + web-search grounding + OAuth. Stack: React, TypeScript, LangChain, LangGraph, OpenAI, Gemini.</desc>
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#190B12"/><stop offset="1" stop-color="#10070C"/></linearGradient>
-<radialGradient id="glow" cx="80%" cy="15%" r="75%"><stop offset="0" stop-color="#701A3D" stop-opacity=".6"/><stop offset="1" stop-color="#451126" stop-opacity="0"/></radialGradient>
-<linearGradient id="sheen" gradientUnits="userSpaceOnUse" x1="-300" y1="0" x2="0" y2="0"><stop offset="0" stop-color="#E5B5C7"/><stop offset=".5" stop-color="#F8F0F3"/><stop offset="1" stop-color="#E5B5C7"/><animateTransform attributeName="gradientTransform" type="translate" values="0 0;1500 0;1500 0" keyTimes="0;.4;1" dur="7s" begin="1.5s" repeatCount="indefinite"/></linearGradient>
-<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#C77B9B" stroke-opacity=".06"/></pattern></defs>
-<style>.serif{font-family:Georgia,"Iowan Old Style","Palatino Linotype","Times New Roman",serif}
-.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
-.sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
-.in{animation:in 1s cubic-bezier(.16,1,.3,1) both}@keyframes in{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style><rect width="1200" height="370" rx="20" fill="url(#bg)"/><rect width="1200" height="370" rx="20" fill="url(#glow)"/><rect width="1200" height="370" rx="20" fill="url(#grid)"/><rect x=".5" y=".5" width="1199" height="369" rx="19.5" fill="none" stroke="#C77B9B" stroke-opacity=".16"/><text class="mono" x="56" y="62" font-size="12" letter-spacing="3" fill="#C77B9B">04 · AGENTS · LANGGRAPH</text>
-<text class="serif" x="54" y="118" font-size="52" font-weight="300" letter-spacing="-1.5" fill="#F8F0F3">Agentic Support Desk</text>
-<text class="sans" x="56" y="160" font-size="18" fill="#B6A3AC">Multi-step AI support agent with tool calling.</text>
-<text class="mono" x="56" y="200" font-size="13" fill="#C77B9B">BUILT › <tspan fill="#E5B5C7">LangGraph orchestration + web-search grounding + OAuth</tspan></text>
-<path d="M56 222H656" stroke="#C77B9B" stroke-opacity=".3"/><text class="serif" x="56" y="262" font-size="28" font-weight="300" fill="#F8F0F3">Multi-step</text><text class="sans" x="56" y="284" font-size="14" fill="#B6A3AC">LangGraph flows</text><text class="serif" x="261" y="262" font-size="28" font-weight="300" fill="#F8F0F3">Tools</text><text class="sans" x="261" y="284" font-size="14" fill="#B6A3AC">web-search grounding</text><text class="serif" x="466" y="262" font-size="28" font-weight="300" fill="#F8F0F3">OAuth</text><text class="sans" x="466" y="284" font-size="14" fill="#B6A3AC">+ JWT auth</text><rect x="56" y="316" width="60" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/><text class="mono" x="67" y="333" font-size="11.5" fill="#E5B5C7">React</text><rect x="124.0" y="316" width="98" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/><text class="mono" x="135.0" y="333" font-size="11.5" fill="#E5B5C7">TypeScript</text><rect x="230.0" y="316" width="90" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/><text class="mono" x="241.0" y="333" font-size="11.5" fill="#E5B5C7">LangChain</text><rect x="328.4" y="316" width="90" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/><text class="mono" x="339.4" y="333" font-size="11.5" fill="#E5B5C7">LangGraph</text><rect x="426.79999999999995" y="316" width="68" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/><text class="mono" x="437.79999999999995" y="333" font-size="11.5" fill="#E5B5C7">OpenAI</text><rect x="502.4" y="316" width="68" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/><text class="mono" x="513.4" y="333" font-size="11.5" fill="#E5B5C7">Gemini</text>
-<text class="mono" x="772" y="92" font-size="11" letter-spacing="3" fill="#B6A3AC">AGENT ORCHESTRATION</text><rect x="772" y="150" width="82" height="40" rx="20" fill="#190B12" stroke="#C77B9B" stroke-opacity=".5"/><text class="mono" x="813" y="174" text-anchor="middle" font-size="12" fill="#F8F0F3">ask</text><path d="M854 170h16" stroke="#C77B9B" stroke-opacity=".7"/><rect x="870" y="150" width="82" height="40" rx="20" fill="#190B12" stroke="#C77B9B" stroke-opacity=".5"/><text class="mono" x="912" y="174" text-anchor="middle" font-size="12" fill="#F8F0F3">plan</text><path d="M953 170h16" stroke="#C77B9B" stroke-opacity=".7"/><rect x="969" y="150" width="82" height="40" rx="20" fill="#190B12" stroke="#C77B9B" stroke-opacity=".5"/><text class="mono" x="1010" y="174" text-anchor="middle" font-size="12" fill="#F8F0F3">tools</text><path d="M1052 170h16" stroke="#C77B9B" stroke-opacity=".7"/><rect x="1068" y="150" width="82" height="40" rx="20" fill="#190B12" stroke="#C77B9B" stroke-opacity=".5"/><text class="mono" x="1109" y="174" text-anchor="middle" font-size="12" fill="#F8F0F3">answer</text><circle r="4" fill="#F8F0F3"><animate attributeName="cx" values="772;1150" dur="5s" repeatCount="indefinite"/><animate attributeName="cy" values="170;170" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="5s" repeatCount="indefinite"/></circle>
-<text class="mono" x="772" y="308" font-size="11.5" letter-spacing="1" fill="#B6A3AC">OpenAI · Gemini · Tavily</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-label="Support Desk: Autonomous LangGraph state machine with deterministic human routing.. Built: stateful triage + tool execution + human-in-the-loop fallback. Stack: React, Node.js, LangGraph, OpenAI, PostgreSQL.">
+  <title>Support Desk: Autonomous LangGraph state machine with deterministic human routing.</title>
+  <desc>Built: stateful triage + tool execution + human-in-the-loop fallback. Stack: React, Node.js, LangGraph, OpenAI, PostgreSQL.</desc>
+  <defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#190B12"/>
+    <stop offset="1" stop-color="#10070C"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="80%" cy="15%" r="75%">
+    <stop offset="0" stop-color="#701A3D" stop-opacity=".6"/>
+    <stop offset="1" stop-color="#451126" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="sheen" gradientUnits="userSpaceOnUse" x1="-300" y1="0" x2="0" y2="0">
+    <stop offset="0" stop-color="#E5B5C7"/>
+    <stop offset=".5" stop-color="#F8F0F3"/>
+    <stop offset="1" stop-color="#E5B5C7"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="0 0;1500 0;1500 0" keyTimes="0;.4;1" dur="7s" begin="1.5s" repeatCount="indefinite"/>
+  </linearGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" fill="none" stroke="#C77B9B" stroke-opacity=".06"/>
+  </pattern>
+  <linearGradient id="line" gradientUnits="userSpaceOnUse" x1="40" y1="0" x2="1160" y2="0">
+    <stop offset="0" stop-color="#C77B9B"/>
+    <stop offset=".6" stop-color="#701A3D"/>
+    <stop offset="1" stop-color="#701A3D" stop-opacity="0"/>
+  </linearGradient>
+  <filter id="pulseGlow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+    <feMerge>
+      <feMergeNode in="coloredBlur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+</defs>
+  <style>
+  .serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+  .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+  .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+  .in { animation: in 1s cubic-bezier(.16,1,.3,1) both; }
+  @keyframes in { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+  .tbl {
+    stroke: #E5B5C7;
+    stroke-width: 1.5;
+    stroke-linecap: round;
+    stroke-dasharray: 150 850;
+    fill: none;
+    animation: tblRun 7s linear infinite;
+  }
+  @keyframes tblRun {
+    from { stroke-dashoffset: 1000; }
+    to { stroke-dashoffset: 0; }
+  }
+  .cursor { animation: blink 1.1s infinite; }
+  @keyframes blink { 0%, 50% { opacity: 1; } 50.1%, 100% { opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) {
+    *, .tbl, .in, .cursor { animation: none !important; }
+    .tbl { display: none !important; }
+  }
+</style>
+  <rect width="1200" height="370" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="370" rx="20" fill="url(#glow)"/>
+  <rect width="1200" height="370" rx="20" fill="url(#grid)"/>
+  <rect x=".5" y=".5" width="1199" height="369" rx="19.5" fill="none" stroke="#C77B9B" stroke-opacity=".16"/>
+  <rect class="tbl" x=".5" y=".5" width="1199" height="369" rx="19.5" pathLength="1000" style="animation-delay: -3.40s;"/>
+
+  <!-- Left Info -->
+  <text class="mono" x="56" y="62" font-size="12" letter-spacing="3" fill="#C77B9B">03 · AGENTIC AI · AUTOMATION</text>
+  <text class="serif" x="54" y="118" font-size="52" font-weight="300" letter-spacing="-1.5" fill="#F8F0F3">Support Desk</text>
+  <text class="sans" x="56" y="160" font-size="18" fill="#B6A3AC">Autonomous LangGraph state machine with deterministic human routing.</text>
+  <text class="mono" x="56" y="200" font-size="13" fill="#C77B9B">BUILT › <tspan fill="#E5B5C7">stateful triage + tool execution + human-in-the-loop fallback</tspan></text>
+  <path d="M56 222H656" stroke="#C77B9B" stroke-opacity=".3"/>
+
+  <!-- 3 Stats -->
+  <text class="serif" x="56" y="262" font-size="28" font-weight="300" fill="#F8F0F3">Stateful</text>
+  <text class="sans" x="56" y="284" font-size="14" fill="#B6A3AC">graph cycles</text>
+
+  <text class="serif" x="261" y="262" font-size="28" font-weight="300" fill="#F8F0F3">4</text>
+  <text class="sans" x="261" y="284" font-size="14" fill="#B6A3AC">tool integrations</text>
+
+  <text class="serif" x="466" y="262" font-size="28" font-weight="300" fill="#F8F0F3">Auto</text>
+  <text class="sans" x="466" y="284" font-size="14" fill="#B6A3AC">human handoff</text>
+
+  <!-- Chips -->
+  <rect x="56" y="316" width="65" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
+<text class="mono" x="88" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">React</text>
+<rect x="131" y="316" width="83" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
+<text class="mono" x="172" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">Node.js</text>
+<rect x="224" y="316" width="101" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
+<text class="mono" x="274" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">LangGraph</text>
+<rect x="335" y="316" width="74" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
+<text class="mono" x="372" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">OpenAI</text>
+<rect x="419" y="316" width="110" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
+<text class="mono" x="474" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">PostgreSQL</text>
+
+  <!-- Node Flow on Right -->
+  <text class="mono" x="760" y="92" font-size="11" letter-spacing="3" fill="#B6A3AC">DATA FLOW PIPELINE</text>
+  
+    <rect x="760" y="150" width="78" height="40" rx="20" fill="#190B12" stroke="#C77B9B" stroke-opacity=".5"/>
+    <text class="mono" x="799" y="175" text-anchor="middle" font-size="11.5" fill="#F8F0F3">ticket</text>
+<path d="M838 170 h20" stroke="#C77B9B" stroke-opacity=".7"/>
+
+    <rect x="858" y="150" width="78" height="40" rx="20" fill="#190B12" stroke="#C77B9B" stroke-opacity=".5"/>
+    <text class="mono" x="897" y="175" text-anchor="middle" font-size="11.5" fill="#F8F0F3">classify</text>
+<path d="M936 170 h20" stroke="#C77B9B" stroke-opacity=".7"/>
+
+    <rect x="956" y="150" width="78" height="40" rx="20" fill="#190B12" stroke="#C77B9B" stroke-opacity=".5"/>
+    <text class="mono" x="995" y="175" text-anchor="middle" font-size="11.5" fill="#F8F0F3">tool call</text>
+<path d="M1034 170 h20" stroke="#C77B9B" stroke-opacity=".7"/>
+
+    <rect x="1054" y="150" width="78" height="40" rx="20" fill="#190B12" stroke="#C77B9B" stroke-opacity=".5"/>
+    <text class="mono" x="1093" y="175" text-anchor="middle" font-size="11.5" fill="#F8F0F3">resolve</text>
+  <circle r="4" fill="#F8F0F3">
+    <animate attributeName="cx" values="760;1132" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="170;170" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <text class="mono" x="760" y="308" font-size="11.5" letter-spacing="1" fill="#B6A3AC">LangGraph state machine · human in the loop</text>
+</svg>

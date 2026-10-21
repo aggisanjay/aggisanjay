@@ -1,17 +1,118 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-label="HireIQ: AI recruitment platform with Gemini resume scoring.. Built: weighted candidate matching + Cloudinary resume storage. Stack: React, Node.js, Express, MongoDB, Gemini, Cloudinary.">
-<title>HireIQ: AI recruitment platform with Gemini resume scoring.</title><desc>Built: weighted candidate matching + Cloudinary resume storage. Stack: React, Node.js, Express, MongoDB, Gemini, Cloudinary.</desc>
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#190B12"/><stop offset="1" stop-color="#10070C"/></linearGradient>
-<radialGradient id="glow" cx="80%" cy="15%" r="75%"><stop offset="0" stop-color="#701A3D" stop-opacity=".6"/><stop offset="1" stop-color="#451126" stop-opacity="0"/></radialGradient>
-<linearGradient id="sheen" gradientUnits="userSpaceOnUse" x1="-300" y1="0" x2="0" y2="0"><stop offset="0" stop-color="#E5B5C7"/><stop offset=".5" stop-color="#F8F0F3"/><stop offset="1" stop-color="#E5B5C7"/><animateTransform attributeName="gradientTransform" type="translate" values="0 0;1500 0;1500 0" keyTimes="0;.4;1" dur="7s" begin="1.5s" repeatCount="indefinite"/></linearGradient>
-<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#C77B9B" stroke-opacity=".06"/></pattern></defs>
-<style>.serif{font-family:Georgia,"Iowan Old Style","Palatino Linotype","Times New Roman",serif}
-.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
-.sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
-.in{animation:in 1s cubic-bezier(.16,1,.3,1) both}@keyframes in{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style><rect width="1200" height="370" rx="20" fill="url(#bg)"/><rect width="1200" height="370" rx="20" fill="url(#glow)"/><rect width="1200" height="370" rx="20" fill="url(#grid)"/><rect x=".5" y=".5" width="1199" height="369" rx="19.5" fill="none" stroke="#C77B9B" stroke-opacity=".16"/><text class="mono" x="56" y="62" font-size="12" letter-spacing="3" fill="#C77B9B">03 · AI · RECRUITMENT</text>
-<text class="serif" x="54" y="118" font-size="52" font-weight="300" letter-spacing="-1.5" fill="#F8F0F3">HireIQ</text>
-<text class="sans" x="56" y="160" font-size="18" fill="#B6A3AC">AI recruitment platform with Gemini resume scoring.</text>
-<text class="mono" x="56" y="200" font-size="13" fill="#C77B9B">BUILT › <tspan fill="#E5B5C7">weighted candidate matching + Cloudinary resume storage</tspan></text>
-<path d="M56 222H656" stroke="#C77B9B" stroke-opacity=".3"/><text class="serif" x="56" y="262" font-size="28" font-weight="300" fill="#F8F0F3">Gemini</text><text class="sans" x="56" y="284" font-size="14" fill="#B6A3AC">resume scoring</text><text class="serif" x="261" y="262" font-size="28" font-weight="300" fill="#F8F0F3">Weighted</text><text class="sans" x="261" y="284" font-size="14" fill="#B6A3AC">candidate matching</text><text class="serif" x="466" y="262" font-size="28" font-weight="300" fill="#F8F0F3">AI</text><text class="sans" x="466" y="284" font-size="14" fill="#B6A3AC">screening workflows</text><rect x="56" y="316" width="60" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/><text class="mono" x="67" y="333" font-size="11.5" fill="#E5B5C7">React</text><rect x="124.0" y="316" width="75" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/><text class="mono" x="135.0" y="333" font-size="11.5" fill="#E5B5C7">Node.js</text><rect x="207.2" y="316" width="75" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/><text class="mono" x="218.2" y="333" font-size="11.5" fill="#E5B5C7">Express</text><rect x="290.4" y="316" width="75" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/><text class="mono" x="301.4" y="333" font-size="11.5" fill="#E5B5C7">MongoDB</text><rect x="373.59999999999997" y="316" width="68" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/><text class="mono" x="384.59999999999997" y="333" font-size="11.5" fill="#E5B5C7">Gemini</text><rect x="449.19999999999993" y="316" width="98" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/><text class="mono" x="460.19999999999993" y="333" font-size="11.5" fill="#E5B5C7">Cloudinary</text>
-<text class="mono" x="772" y="92" font-size="11" letter-spacing="3" fill="#B6A3AC">HIRING PIPELINE</text><rect x="772" y="150" width="82" height="40" rx="20" fill="#190B12" stroke="#C77B9B" stroke-opacity=".5"/><text class="mono" x="813" y="174" text-anchor="middle" font-size="12" fill="#F8F0F3">upload</text><path d="M854 170h16" stroke="#C77B9B" stroke-opacity=".7"/><rect x="870" y="150" width="82" height="40" rx="20" fill="#190B12" stroke="#C77B9B" stroke-opacity=".5"/><text class="mono" x="912" y="174" text-anchor="middle" font-size="12" fill="#F8F0F3">parse</text><path d="M953 170h16" stroke="#C77B9B" stroke-opacity=".7"/><rect x="969" y="150" width="82" height="40" rx="20" fill="#190B12" stroke="#C77B9B" stroke-opacity=".5"/><text class="mono" x="1010" y="174" text-anchor="middle" font-size="12" fill="#F8F0F3">score</text><path d="M1052 170h16" stroke="#C77B9B" stroke-opacity=".7"/><rect x="1068" y="150" width="82" height="40" rx="20" fill="#190B12" stroke="#C77B9B" stroke-opacity=".5"/><text class="mono" x="1109" y="174" text-anchor="middle" font-size="12" fill="#F8F0F3">match</text><circle r="4" fill="#F8F0F3"><animate attributeName="cx" values="772;1150" dur="5s" repeatCount="indefinite"/><animate attributeName="cy" values="170;170" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="5s" repeatCount="indefinite"/></circle>
-<text class="mono" x="772" y="308" font-size="11.5" letter-spacing="1" fill="#B6A3AC">resume processing · screening</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-label="HireIQ: AI resume intelligence and weighted matching engine.. Built: PDF extraction + vector similarity + structured criteria scoring. Stack: React, Node.js, Gemini, Express, Tailwind.">
+  <title>HireIQ: AI resume intelligence and weighted matching engine.</title>
+  <desc>Built: PDF extraction + vector similarity + structured criteria scoring. Stack: React, Node.js, Gemini, Express, Tailwind.</desc>
+  <defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#190B12"/>
+    <stop offset="1" stop-color="#10070C"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="80%" cy="15%" r="75%">
+    <stop offset="0" stop-color="#701A3D" stop-opacity=".6"/>
+    <stop offset="1" stop-color="#451126" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="sheen" gradientUnits="userSpaceOnUse" x1="-300" y1="0" x2="0" y2="0">
+    <stop offset="0" stop-color="#E5B5C7"/>
+    <stop offset=".5" stop-color="#F8F0F3"/>
+    <stop offset="1" stop-color="#E5B5C7"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="0 0;1500 0;1500 0" keyTimes="0;.4;1" dur="7s" begin="1.5s" repeatCount="indefinite"/>
+  </linearGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" fill="none" stroke="#C77B9B" stroke-opacity=".06"/>
+  </pattern>
+  <linearGradient id="line" gradientUnits="userSpaceOnUse" x1="40" y1="0" x2="1160" y2="0">
+    <stop offset="0" stop-color="#C77B9B"/>
+    <stop offset=".6" stop-color="#701A3D"/>
+    <stop offset="1" stop-color="#701A3D" stop-opacity="0"/>
+  </linearGradient>
+  <filter id="pulseGlow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+    <feMerge>
+      <feMergeNode in="coloredBlur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+</defs>
+  <style>
+  .serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+  .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+  .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+  .in { animation: in 1s cubic-bezier(.16,1,.3,1) both; }
+  @keyframes in { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+  .tbl {
+    stroke: #E5B5C7;
+    stroke-width: 1.5;
+    stroke-linecap: round;
+    stroke-dasharray: 150 850;
+    fill: none;
+    animation: tblRun 7s linear infinite;
+  }
+  @keyframes tblRun {
+    from { stroke-dashoffset: 1000; }
+    to { stroke-dashoffset: 0; }
+  }
+  .cursor { animation: blink 1.1s infinite; }
+  @keyframes blink { 0%, 50% { opacity: 1; } 50.1%, 100% { opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) {
+    *, .tbl, .in, .cursor { animation: none !important; }
+    .tbl { display: none !important; }
+  }
+</style>
+  <rect width="1200" height="370" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="370" rx="20" fill="url(#glow)"/>
+  <rect width="1200" height="370" rx="20" fill="url(#grid)"/>
+  <rect x=".5" y=".5" width="1199" height="369" rx="19.5" fill="none" stroke="#C77B9B" stroke-opacity=".16"/>
+  <rect class="tbl" x=".5" y=".5" width="1199" height="369" rx="19.5" pathLength="1000" style="animation-delay: -4.60s;"/>
+
+  <!-- Left Info -->
+  <text class="mono" x="56" y="62" font-size="12" letter-spacing="3" fill="#C77B9B">04 · RECRUITMENT · MATCHING</text>
+  <text class="serif" x="54" y="118" font-size="52" font-weight="300" letter-spacing="-1.5" fill="#F8F0F3">HireIQ</text>
+  <text class="sans" x="56" y="160" font-size="18" fill="#B6A3AC">AI resume intelligence and weighted matching engine.</text>
+  <text class="mono" x="56" y="200" font-size="13" fill="#C77B9B">BUILT › <tspan fill="#E5B5C7">PDF extraction + vector similarity + structured criteria scoring</tspan></text>
+  <path d="M56 222H656" stroke="#C77B9B" stroke-opacity=".3"/>
+
+  <!-- 3 Stats -->
+  <text class="serif" x="56" y="262" font-size="28" font-weight="300" fill="#F8F0F3">Weighted</text>
+  <text class="sans" x="56" y="284" font-size="14" fill="#B6A3AC">scoring engine</text>
+
+  <text class="serif" x="261" y="262" font-size="28" font-weight="300" fill="#F8F0F3">Gemini</text>
+  <text class="sans" x="261" y="284" font-size="14" fill="#B6A3AC">parsing</text>
+
+  <text class="serif" x="466" y="262" font-size="28" font-weight="300" fill="#F8F0F3">Instant</text>
+  <text class="sans" x="466" y="284" font-size="14" fill="#B6A3AC">candidate match</text>
+
+  <!-- Chips -->
+  <rect x="56" y="316" width="65" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
+<text class="mono" x="88" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">React</text>
+<rect x="131" y="316" width="83" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
+<text class="mono" x="172" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">Node.js</text>
+<rect x="224" y="316" width="74" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
+<text class="mono" x="261" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">Gemini</text>
+<rect x="308" y="316" width="83" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
+<text class="mono" x="349" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">Express</text>
+<rect x="401" y="316" width="92" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
+<text class="mono" x="447" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">Tailwind</text>
+
+  <!-- Node Flow on Right -->
+  <text class="mono" x="760" y="92" font-size="11" letter-spacing="3" fill="#B6A3AC">DATA FLOW PIPELINE</text>
+  
+    <rect x="760" y="150" width="78" height="40" rx="20" fill="#190B12" stroke="#C77B9B" stroke-opacity=".5"/>
+    <text class="mono" x="799" y="175" text-anchor="middle" font-size="11.5" fill="#F8F0F3">resume</text>
+<path d="M838 170 h20" stroke="#C77B9B" stroke-opacity=".7"/>
+
+    <rect x="858" y="150" width="78" height="40" rx="20" fill="#190B12" stroke="#C77B9B" stroke-opacity=".5"/>
+    <text class="mono" x="897" y="175" text-anchor="middle" font-size="11.5" fill="#F8F0F3">extract</text>
+<path d="M936 170 h20" stroke="#C77B9B" stroke-opacity=".7"/>
+
+    <rect x="956" y="150" width="78" height="40" rx="20" fill="#190B12" stroke="#C77B9B" stroke-opacity=".5"/>
+    <text class="mono" x="995" y="175" text-anchor="middle" font-size="11.5" fill="#F8F0F3">vector match</text>
+<path d="M1034 170 h20" stroke="#C77B9B" stroke-opacity=".7"/>
+
+    <rect x="1054" y="150" width="78" height="40" rx="20" fill="#190B12" stroke="#C77B9B" stroke-opacity=".5"/>
+    <text class="mono" x="1093" y="175" text-anchor="middle" font-size="11.5" fill="#F8F0F3">score</text>
+  <circle r="4" fill="#F8F0F3">
+    <animate attributeName="cx" values="760;1132" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="170;170" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <text class="mono" x="760" y="308" font-size="11.5" letter-spacing="1" fill="#B6A3AC">multi-dimensional candidate fit scoring</text>
+</svg>
