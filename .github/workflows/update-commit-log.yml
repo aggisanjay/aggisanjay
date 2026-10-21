@@ -1,4 +1,4 @@
-name: Update Commit Log & Profile Assets
+name: Update GitHub Contribution Matrix & Profile Assets
 
 on:
   schedule:
@@ -17,7 +17,7 @@ permissions:
   contents: write
 
 jobs:
-  refresh-assets:
+  refresh-contributions:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
@@ -28,18 +28,18 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Regenerate Profile SVG Assets
+      - name: Fetch Real GitHub Contributions & Update Assets
         run: |
-          python scripts/generate_assets.py
+          python scripts/update_contributions_and_avatar.py
 
       - name: Commit and Push if Changed
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add assets/
+          git add assets/hero.svg assets/contribution-snake.svg
           if git diff --staged --quiet; then
-            echo "No changes to commit"
+            echo "No contribution changes to commit"
           else
-            git commit -m "chore(assets): update daily contribution matrix & SVG assets [skip ci]"
+            git commit -m "chore(contributions): sync daily github contribution graph [skip ci]"
             git push
           fi
