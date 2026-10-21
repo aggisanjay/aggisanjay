@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="1200" height="500" role="img" aria-label="Toolkit: Languages, AI &amp; LLM, Frontend, Backend &amp; Data, Async &amp; Queues, DevOps &amp; Cloud.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520" role="img" aria-label="Toolkit: Languages, AI &amp; Multi-Agent, RAG &amp; Retrieval, Backend &amp; Real-Time, Frontend, Data, Cloud &amp; DevOps.">
   <title>Toolkit &amp; Tech Constellation</title>
-  <desc>Engineering skills across languages, frameworks, AI libraries, and cloud infra.</desc>
+  <desc>Comprehensive engineering stack covering TypeScript, Python, LangGraph, RAG, React, Next.js, Node.js, Redis, MongoDB, PostgreSQL, Docker, and Cloud CI/CD.</desc>
   <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
     <stop offset="0" stop-color="#190B12"/>
@@ -57,94 +57,100 @@
     .tbl { display: none !important; }
   }
 </style>
-  <rect width="1200" height="500" rx="20" fill="url(#bg)"/>
-  <rect width="1200" height="500" rx="20" fill="url(#glow)"/>
-  <rect width="1200" height="500" rx="20" fill="url(#grid)"/>
-  <rect x=".5" y=".5" width="1199" height="499" rx="19.5" fill="none" stroke="#C77B9B" stroke-opacity=".16"/>
-  <rect class="tbl" x=".5" y=".5" width="1199" height="499" rx="19.5" pathLength="1000" style="animation-delay: -2.0s;"/>
+  <rect width="1200" height="520" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="520" rx="20" fill="url(#glow)"/>
+  <rect width="1200" height="520" rx="20" fill="url(#grid)"/>
+  <rect x=".5" y=".5" width="1199" height="519" rx="19.5" fill="none" stroke="#C77B9B" stroke-opacity=".16"/>
+  <rect class="tbl" x=".5" y=".5" width="1199" height="519" rx="19.5" pathLength="1000" style="animation-delay: -2.0s;"/>
 
   <!-- Connector Web in Gutters -->
-  <path d="M40 250H1160" stroke="#C77B9B" stroke-opacity=".2" stroke-dasharray="8 6"/>
-  <path d="M406 32V468" stroke="#C77B9B" stroke-opacity=".2" stroke-dasharray="8 6"/>
-  <path d="M794 32V468" stroke="#C77B9B" stroke-opacity=".2" stroke-dasharray="8 6"/>
+  <path d="M40 260H1160" stroke="#C77B9B" stroke-opacity=".2" stroke-dasharray="8 6"/>
+  <path d="M406 28V492" stroke="#C77B9B" stroke-opacity=".2" stroke-dasharray="8 6"/>
+  <path d="M794 28V492" stroke="#C77B9B" stroke-opacity=".2" stroke-dasharray="8 6"/>
 
   <!-- Glowing Pulse Dot travelling along the horizontal gutter -->
   <circle r="4" fill="#E5B5C7" filter="url(#pulseGlow)">
-    <animateMotion path="M40 250H1160" dur="8s" repeatCount="indefinite"/>
+    <animateMotion path="M40 260H1160" dur="8s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0;1;1;0" dur="8s" repeatCount="indefinite"/>
   </circle>
 
   <!-- 3x2 Grid Cards -->
   
-  <g transform="translate(32 32)">
+  <g transform="translate(32 28)">
     <g class="in">
-      <rect width="360" height="200" rx="16" fill="#190B12" stroke="#C77B9B" stroke-opacity=".25"/>
-      <rect class="tbl" width="360" height="200" rx="16" pathLength="1000" style="animation-delay: -1.10s;"/>
-      <text class="mono" x="24" y="34" font-size="10.5" letter-spacing="3" fill="#C77B9B">01 LANGUAGES</text>
-      <text class="serif" x="24" y="82" font-size="30" font-weight="300" fill="#F8F0F3">TypeScript · JavaScript</text>
-<text class="serif" x="24" y="124" font-size="22" font-weight="300" fill="#F8F0F3">Python</text>
-<text class="serif" x="24" y="166" font-size="22" font-weight="300" fill="#B6A3AC">SQL</text>
-      
+      <rect width="360" height="216" rx="16" fill="#190B12" stroke="#C77B9B" stroke-opacity=".25"/>
+      <rect class="tbl" width="360" height="216" rx="16" pathLength="1000" style="animation-delay: -1.10s;"/>
+      <text class="mono" x="24" y="32" font-size="10" letter-spacing="2.5" fill="#C77B9B">01 LANGUAGES</text>
+      <text class="serif" x="24" y="72" font-size="21" font-weight="300" fill="#F8F0F3">JavaScript (ES6+) · TypeScript</text>
+<text class="serif" x="24" y="108" font-size="21" font-weight="300" fill="#F8F0F3">Python · SQL</text>
+<text class="serif" x="24" y="144" font-size="16.5" font-weight="300" fill="#B6A3AC">Type-Safe API Contracts &amp; Data Logic</text>
+      <line x1="24" y1="168" x2="336" y2="168" stroke="#C77B9B" stroke-opacity=".15"/>
+      <text class="mono" x="24" y="194" font-size="8.8" letter-spacing="1.4" fill="#E5B5C7">ASYNC/AWAIT · PROTOCOLS · SCRIPTS</text>
     </g>
   </g>
 
-  <g transform="translate(420 32)">
+  <g transform="translate(420 28)">
     <g class="in">
-      <rect width="360" height="200" rx="16" fill="#190B12" stroke="#C77B9B" stroke-opacity=".25"/>
-      <rect class="tbl" width="360" height="200" rx="16" pathLength="1000" style="animation-delay: -2.60s;"/>
-      <text class="mono" x="24" y="34" font-size="10.5" letter-spacing="3" fill="#C77B9B">02 AI · LLM</text>
-      <text class="serif" x="24" y="82" font-size="30" font-weight="300" fill="#F8F0F3">LangChain · LangGraph</text>
-<text class="serif" x="24" y="124" font-size="22" font-weight="300" fill="#F8F0F3">OpenAI · Gemini</text>
-<text class="serif" x="24" y="166" font-size="22" font-weight="300" fill="#B6A3AC">HuggingFace · Ollama</text>
-      <text class="mono" x="24" y="188" font-size="9.5" letter-spacing="2" fill="#B6A3AC">RAG · EMBEDDINGS · SSE</text>
+      <rect width="360" height="216" rx="16" fill="#190B12" stroke="#C77B9B" stroke-opacity=".25"/>
+      <rect class="tbl" width="360" height="216" rx="16" pathLength="1000" style="animation-delay: -2.60s;"/>
+      <text class="mono" x="24" y="32" font-size="10" letter-spacing="2.5" fill="#C77B9B">02 AI &amp; MULTI-AGENT</text>
+      <text class="serif" x="24" y="72" font-size="22" font-weight="300" fill="#F8F0F3">LangChain · LangGraph</text>
+<text class="serif" x="24" y="108" font-size="20" font-weight="300" fill="#F8F0F3">OpenAI · Gemini · Ollama</text>
+<text class="serif" x="24" y="144" font-size="16.5" font-weight="300" fill="#B6A3AC">Multi-Agent · Tool &amp; Function Calling</text>
+      <line x1="24" y1="168" x2="336" y2="168" stroke="#C77B9B" stroke-opacity=".15"/>
+      <text class="mono" x="24" y="194" font-size="8.8" letter-spacing="1.4" fill="#E5B5C7">HUGGINGFACE API · PROMPT ENGINEERING</text>
     </g>
   </g>
 
-  <g transform="translate(808 32)">
+  <g transform="translate(808 28)">
     <g class="in">
-      <rect width="360" height="200" rx="16" fill="#190B12" stroke="#C77B9B" stroke-opacity=".25"/>
-      <rect class="tbl" width="360" height="200" rx="16" pathLength="1000" style="animation-delay: -4.00s;"/>
-      <text class="mono" x="24" y="34" font-size="10.5" letter-spacing="3" fill="#C77B9B">03 FRONTEND</text>
-      <text class="serif" x="24" y="82" font-size="30" font-weight="300" fill="#F8F0F3">React · Next.js</text>
-<text class="serif" x="24" y="124" font-size="22" font-weight="300" fill="#F8F0F3">Redux · Zustand</text>
-<text class="serif" x="24" y="166" font-size="22" font-weight="300" fill="#B6A3AC">Tailwind CSS</text>
-      
+      <rect width="360" height="216" rx="16" fill="#190B12" stroke="#C77B9B" stroke-opacity=".25"/>
+      <rect class="tbl" width="360" height="216" rx="16" pathLength="1000" style="animation-delay: -4.00s;"/>
+      <text class="mono" x="24" y="32" font-size="10" letter-spacing="2.5" fill="#C77B9B">03 RAG &amp; RETRIEVAL</text>
+      <text class="serif" x="24" y="72" font-size="21" font-weight="300" fill="#F8F0F3">Embeddings · Vector Search</text>
+<text class="serif" x="24" y="108" font-size="20" font-weight="300" fill="#F8F0F3">Semantic Search &amp; Ranking</text>
+<text class="serif" x="24" y="144" font-size="16.5" font-weight="300" fill="#B6A3AC">Multi-Source Document Retrieval</text>
+      <line x1="24" y1="168" x2="336" y2="168" stroke="#C77B9B" stroke-opacity=".15"/>
+      <text class="mono" x="24" y="194" font-size="8.8" letter-spacing="1.4" fill="#E5B5C7">CITATION GROUNDING · COSINE SIMILARITY</text>
     </g>
   </g>
 
-  <g transform="translate(32 268)">
+  <g transform="translate(32 276)">
     <g class="in">
-      <rect width="360" height="200" rx="16" fill="#190B12" stroke="#C77B9B" stroke-opacity=".25"/>
-      <rect class="tbl" width="360" height="200" rx="16" pathLength="1000" style="animation-delay: -5.30s;"/>
-      <text class="mono" x="24" y="34" font-size="10.5" letter-spacing="3" fill="#C77B9B">04 BACKEND &amp; DATA</text>
-      <text class="serif" x="24" y="82" font-size="30" font-weight="300" fill="#F8F0F3">Node.js · Express</text>
-<text class="serif" x="24" y="124" font-size="22" font-weight="300" fill="#F8F0F3">MongoDB · PostgreSQL</text>
-<text class="serif" x="24" y="166" font-size="22" font-weight="300" fill="#B6A3AC">Prisma · Redis</text>
-      
+      <rect width="360" height="216" rx="16" fill="#190B12" stroke="#C77B9B" stroke-opacity=".25"/>
+      <rect class="tbl" width="360" height="216" rx="16" pathLength="1000" style="animation-delay: -5.30s;"/>
+      <text class="mono" x="24" y="32" font-size="10" letter-spacing="2.5" fill="#C77B9B">04 BACKEND &amp; REAL-TIME</text>
+      <text class="serif" x="24" y="72" font-size="20.5" font-weight="300" fill="#F8F0F3">Node.js · Express.js · REST APIs</text>
+<text class="serif" x="24" y="108" font-size="20" font-weight="300" fill="#F8F0F3">Redis · BullMQ · Socket.io</text>
+<text class="serif" x="24" y="144" font-size="16.5" font-weight="300" fill="#B6A3AC">Server-Sent Events (SSE) · JWT Auth</text>
+      <line x1="24" y1="168" x2="336" y2="168" stroke="#C77B9B" stroke-opacity=".15"/>
+      <text class="mono" x="24" y="194" font-size="8.8" letter-spacing="1.4" fill="#E5B5C7">OAUTH 2.0 · ASYNC WORKERS · WEBSOCKETS</text>
     </g>
   </g>
 
-  <g transform="translate(420 268)">
+  <g transform="translate(420 276)">
     <g class="in">
-      <rect width="360" height="200" rx="16" fill="#190B12" stroke="#C77B9B" stroke-opacity=".25"/>
-      <rect class="tbl" width="360" height="200" rx="16" pathLength="1000" style="animation-delay: -6.50s;"/>
-      <text class="mono" x="24" y="34" font-size="10.5" letter-spacing="3" fill="#C77B9B">05 ASYNC &amp; QUEUES</text>
-      <text class="serif" x="24" y="82" font-size="30" font-weight="300" fill="#F8F0F3">BullMQ · Redis</text>
-<text class="serif" x="24" y="124" font-size="22" font-weight="300" fill="#F8F0F3">Stripe · Cloudinary</text>
-<text class="serif" x="24" y="166" font-size="22" font-weight="300" fill="#B6A3AC">JWT · OAuth</text>
-      
+      <rect width="360" height="216" rx="16" fill="#190B12" stroke="#C77B9B" stroke-opacity=".25"/>
+      <rect class="tbl" width="360" height="216" rx="16" pathLength="1000" style="animation-delay: -6.50s;"/>
+      <text class="mono" x="24" y="32" font-size="10" letter-spacing="2.5" fill="#C77B9B">05 FRONTEND</text>
+      <text class="serif" x="24" y="72" font-size="21" font-weight="300" fill="#F8F0F3">React.js · Next.js (App Router)</text>
+<text class="serif" x="24" y="108" font-size="20" font-weight="300" fill="#F8F0F3">Redux Toolkit · Zustand</text>
+<text class="serif" x="24" y="144" font-size="16.5" font-weight="300" fill="#B6A3AC">Tailwind CSS · Responsive Systems</text>
+      <line x1="24" y1="168" x2="336" y2="168" stroke="#C77B9B" stroke-opacity=".15"/>
+      <text class="mono" x="24" y="194" font-size="8.8" letter-spacing="1.4" fill="#E5B5C7">COMPONENT STATE · CLIENT HYDRATION · SSR</text>
     </g>
   </g>
 
-  <g transform="translate(808 268)">
+  <g transform="translate(808 276)">
     <g class="in">
-      <rect width="360" height="200" rx="16" fill="#190B12" stroke="#C77B9B" stroke-opacity=".25"/>
-      <rect class="tbl" width="360" height="200" rx="16" pathLength="1000" style="animation-delay: -0.60s;"/>
-      <text class="mono" x="24" y="34" font-size="10.5" letter-spacing="3" fill="#C77B9B">06 DEVOPS &amp; CLOUD</text>
-      <text class="serif" x="24" y="82" font-size="30" font-weight="300" fill="#F8F0F3">Docker · Git</text>
-<text class="serif" x="24" y="124" font-size="22" font-weight="300" fill="#F8F0F3">GitHub Actions</text>
-<text class="serif" x="24" y="166" font-size="22" font-weight="300" fill="#B6A3AC">Vercel · Render</text>
-      <text class="mono" x="24" y="188" font-size="9.5" letter-spacing="2" fill="#B6A3AC">LEARNING AWS · LINUX</text>
+      <rect width="360" height="216" rx="16" fill="#190B12" stroke="#C77B9B" stroke-opacity=".25"/>
+      <rect class="tbl" width="360" height="216" rx="16" pathLength="1000" style="animation-delay: -0.60s;"/>
+      <text class="mono" x="24" y="32" font-size="10" letter-spacing="2.5" fill="#C77B9B">06 DATA, CLOUD &amp; DEVOPS</text>
+      <text class="serif" x="24" y="72" font-size="19.5" font-weight="300" fill="#F8F0F3">MongoDB (Mongoose) · PostgreSQL</text>
+<text class="serif" x="24" y="108" font-size="20" font-weight="300" fill="#F8F0F3">Prisma ORM · Docker · CI/CD</text>
+<text class="serif" x="24" y="144" font-size="16.5" font-weight="300" fill="#B6A3AC">Vercel · Render · Git &amp; GitHub</text>
+      <line x1="24" y1="168" x2="336" y2="168" stroke="#C77B9B" stroke-opacity=".15"/>
+      <text class="mono" x="24" y="194" font-size="8.8" letter-spacing="1.4" fill="#E5B5C7">POSTMAN · STRIPE · CLOUDINARY INTEGRATIONS</text>
     </g>
   </g>
 </svg>

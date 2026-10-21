@@ -106,7 +106,22 @@
 
 <!-- 05 TOOLKIT -->
 <img src="assets/title-toolkit.svg" width="100%" alt="04 Toolkit — Systems, frameworks, languages" />
-<img src="assets/tech-constellation.svg" width="100%" alt="Technical Stack Grid: 3x2 matrix covering Frontend, Backend, AI & RAG, Data & Queues, Cloud & Ops, and Engineering Standards" />
+<img src="assets/tech-constellation.svg" width="100%" alt="Technical Stack Grid: Languages, AI Engineering & Multi-Agent, RAG & Retrieval, Backend & Real-Time, Frontend Architecture, Databases & Cloud DevOps" />
+<p align="center">
+  <img src="https://img.shields.io/badge/LANGUAGES-TYPESCRIPT_·_JAVASCRIPT_·_PYTHON_·_SQL-701A3D?style=for-the-badge&logo=typescript&logoColor=E5B5C7&labelColor=190B12" alt="Languages" />
+  &nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/AI_&_AGENTS-LANGGRAPH_·_LANGCHAIN_·_OPENAI_·_GEMINI-701A3D?style=for-the-badge&logo=openai&logoColor=E5B5C7&labelColor=190B12" alt="AI & Agents" />
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/RAG_&_RETRIEVAL-VECTOR_SEARCH_·_EMBEDDINGS_·_MULTI--SOURCE-701A3D?style=for-the-badge&logo=pinecone&logoColor=E5B5C7&labelColor=190B12" alt="RAG & Retrieval" />
+  &nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/FRONTEND-REACT_·_NEXT.JS_·_REDUX_·_TAILWIND-701A3D?style=for-the-badge&logo=react&logoColor=E5B5C7&labelColor=190B12" alt="Frontend" />
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/BACKEND_&_REALTIME-NODE_·_EXPRESS_·_REDIS_·_BULLMQ_·_SOCKET.IO-701A3D?style=for-the-badge&logo=nodedotjs&logoColor=E5B5C7&labelColor=190B12" alt="Backend & Real-Time" />
+  &nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/DATABASES_&_DEVOPS-MONGODB_·_POSTGRES_·_PRISMA_·_DOCKER-701A3D?style=for-the-badge&logo=postgresql&logoColor=E5B5C7&labelColor=190B12" alt="Databases & DevOps" />
+</p>
 
 <br/><br/>
 

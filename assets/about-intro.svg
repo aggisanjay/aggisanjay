@@ -70,7 +70,7 @@
     <g clip-path="url(#c2a)"><text x="72" y="228" fill="#C77B9B">$</text><text x="94" y="228" fill="#F8F0F3">ls ./shipped</text></g>
     <g clip-path="url(#c2b)"><text x="72" y="253" fill="#701A3D">→</text><text x="94" y="253" fill="#B6A3AC">curalink  shopai  hireiq  support-desk  zernio  doc-intel</text></g>
     <g clip-path="url(#c3a)"><text x="72" y="278" fill="#C77B9B">$</text><text x="94" y="278" fill="#F8F0F3">cat stack.txt</text></g>
-    <g clip-path="url(#c3b)"><text x="72" y="303" fill="#701A3D">→</text><text x="94" y="303" fill="#B6A3AC">React · Node.js · TypeScript · MongoDB · PostgreSQL · Redis</text></g>
+    <g clip-path="url(#c3b)"><text x="72" y="303" fill="#701A3D">→</text><text x="94" y="303" fill="#B6A3AC">TypeScript · Python · React · Next.js · Node · RAG · Vector Search</text></g>
     <g clip-path="url(#c4a)"><text x="72" y="328" fill="#C77B9B">$</text><text x="94" y="328" fill="#F8F0F3">echo $PRINCIPLE</text></g>
     <g clip-path="url(#c4b)"><text x="72" y="353" fill="#701A3D">→</text><text x="94" y="353" fill="#B6A3AC">not AI demos · usable systems with fallbacks and reliability</text></g>
   </g>
@@ -83,7 +83,7 @@
       <rect width="3" height="88" rx="1.5" fill="#C77B9B"/>
       <text class="mono" x="22" y="26" font-size="10" letter-spacing="2" fill="#C77B9B">PRIMARY STACK</text>
       <text class="serif" x="22" y="58" font-size="28" font-weight="300" fill="#F8F0F3">React + Node</text>
-      <text class="sans" x="22" y="78" font-size="12" fill="#B6A3AC">TypeScript · Express · REST APIs</text>
+      <text class="sans" x="22" y="78" font-size="12" fill="#B6A3AC">TypeScript · Next.js · Express · REST</text>
     </g>
   </g>
 
@@ -93,8 +93,8 @@
       <rect class="tbl" width="324" height="88" rx="14" pathLength="1000" style="animation-delay: -4.8s;"/>
       <rect width="3" height="88" rx="1.5" fill="#C77B9B"/>
       <text class="mono" x="22" y="26" font-size="10" letter-spacing="2" fill="#C77B9B">WHERE AI LIVES</text>
-      <text class="serif" x="22" y="58" font-size="28" font-weight="300" fill="#F8F0F3">RAG &amp; LLMs</text>
-      <text class="sans" x="22" y="78" font-size="12" fill="#B6A3AC">LangGraph · OpenAI · Gemini · Ollama</text>
+      <text class="serif" x="22" y="58" font-size="28" font-weight="300" fill="#F8F0F3">RAG &amp; Agents</text>
+      <text class="sans" x="22" y="78" font-size="12" fill="#B6A3AC">LangGraph · RAG · OpenAI · Gemini · Ollama</text>
     </g>
   </g>
 
@@ -103,9 +103,9 @@
       <rect width="324" height="88" rx="14" fill="#190B12" stroke="#C77B9B" stroke-opacity=".28"/>
       <rect class="tbl" width="324" height="88" rx="14" pathLength="1000" style="animation-delay: -6.1s;"/>
       <rect width="3" height="88" rx="1.5" fill="#C77B9B"/>
-      <text class="mono" x="22" y="26" font-size="10" letter-spacing="2" fill="#C77B9B">DRAWN TO</text>
-      <text class="serif" x="22" y="58" font-size="28" font-weight="300" fill="#F8F0F3">Reliability</text>
-      <text class="sans" x="22" y="78" font-size="12" fill="#B6A3AC">fallbacks · auth · async workflows</text>
+      <text class="mono" x="22" y="26" font-size="10" letter-spacing="2" fill="#C77B9B">DATA &amp; ASYNC</text>
+      <text class="serif" x="22" y="58" font-size="28" font-weight="300" fill="#F8F0F3">Mongo + Postgres</text>
+      <text class="sans" x="22" y="78" font-size="12" fill="#B6A3AC">Prisma · Redis · BullMQ · Socket.io</text>
     </g>
   </g>
 </svg>

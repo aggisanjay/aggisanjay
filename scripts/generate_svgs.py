@@ -259,7 +259,7 @@ def build_about_intro():
     <g clip-path="url(#c2a)"><text x="72" y="228" fill="#C77B9B">$</text><text x="94" y="228" fill="#F8F0F3">ls ./shipped</text></g>
     <g clip-path="url(#c2b)"><text x="72" y="253" fill="#701A3D">→</text><text x="94" y="253" fill="#B6A3AC">curalink  shopai  hireiq  support-desk  zernio  doc-intel</text></g>
     <g clip-path="url(#c3a)"><text x="72" y="278" fill="#C77B9B">$</text><text x="94" y="278" fill="#F8F0F3">cat stack.txt</text></g>
-    <g clip-path="url(#c3b)"><text x="72" y="303" fill="#701A3D">→</text><text x="94" y="303" fill="#B6A3AC">React · Node.js · TypeScript · MongoDB · PostgreSQL · Redis</text></g>
+    <g clip-path="url(#c3b)"><text x="72" y="303" fill="#701A3D">→</text><text x="94" y="303" fill="#B6A3AC">TypeScript · Python · React · Next.js · Node · RAG · Vector Search</text></g>
     <g clip-path="url(#c4a)"><text x="72" y="328" fill="#C77B9B">$</text><text x="94" y="328" fill="#F8F0F3">echo $PRINCIPLE</text></g>
     <g clip-path="url(#c4b)"><text x="72" y="353" fill="#701A3D">→</text><text x="94" y="353" fill="#B6A3AC">not AI demos · usable systems with fallbacks and reliability</text></g>
   </g>
@@ -272,7 +272,7 @@ def build_about_intro():
       <rect width="3" height="88" rx="1.5" fill="#C77B9B"/>
       <text class="mono" x="22" y="26" font-size="10" letter-spacing="2" fill="#C77B9B">PRIMARY STACK</text>
       <text class="serif" x="22" y="58" font-size="28" font-weight="300" fill="#F8F0F3">React + Node</text>
-      <text class="sans" x="22" y="78" font-size="12" fill="#B6A3AC">TypeScript · Express · REST APIs</text>
+      <text class="sans" x="22" y="78" font-size="12" fill="#B6A3AC">TypeScript · Next.js · Express · REST</text>
     </g>
   </g>
 
@@ -282,8 +282,8 @@ def build_about_intro():
       <rect class="tbl" width="324" height="88" rx="14" pathLength="1000" style="animation-delay: -4.8s;"/>
       <rect width="3" height="88" rx="1.5" fill="#C77B9B"/>
       <text class="mono" x="22" y="26" font-size="10" letter-spacing="2" fill="#C77B9B">WHERE AI LIVES</text>
-      <text class="serif" x="22" y="58" font-size="28" font-weight="300" fill="#F8F0F3">RAG &amp; LLMs</text>
-      <text class="sans" x="22" y="78" font-size="12" fill="#B6A3AC">LangGraph · OpenAI · Gemini · Ollama</text>
+      <text class="serif" x="22" y="58" font-size="28" font-weight="300" fill="#F8F0F3">RAG &amp; Agents</text>
+      <text class="sans" x="22" y="78" font-size="12" fill="#B6A3AC">LangGraph · RAG · OpenAI · Gemini · Ollama</text>
     </g>
   </g>
 
@@ -292,9 +292,9 @@ def build_about_intro():
       <rect width="324" height="88" rx="14" fill="#190B12" stroke="#C77B9B" stroke-opacity=".28"/>
       <rect class="tbl" width="324" height="88" rx="14" pathLength="1000" style="animation-delay: -6.1s;"/>
       <rect width="3" height="88" rx="1.5" fill="#C77B9B"/>
-      <text class="mono" x="22" y="26" font-size="10" letter-spacing="2" fill="#C77B9B">DRAWN TO</text>
-      <text class="serif" x="22" y="58" font-size="28" font-weight="300" fill="#F8F0F3">Reliability</text>
-      <text class="sans" x="22" y="78" font-size="12" fill="#B6A3AC">fallbacks · auth · async workflows</text>
+      <text class="mono" x="22" y="26" font-size="10" letter-spacing="2" fill="#C77B9B">DATA &amp; ASYNC</text>
+      <text class="serif" x="22" y="58" font-size="28" font-weight="300" fill="#F8F0F3">Mongo + Postgres</text>
+      <text class="sans" x="22" y="78" font-size="12" fill="#B6A3AC">Prisma · Redis · BullMQ · Socket.io</text>
     </g>
   </g>
 </svg>"""
@@ -393,9 +393,9 @@ def build_experience():
     </g>""")
     rows_str = "\n".join(rows_xml)
 
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-label="Experience: ModelSuite AI Full-Stack AI Engineer. 60+ Production Features Shipped.">
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-label="Experience: ModelSuite AI Full-Stack AI Engineer (Jun – Aug 2024). 60+ Production Features Shipped.">
   <title>Experience: ModelSuite AI</title>
-  <desc>Full-Stack AI Engineer at ModelSuite AI with 60+ production features across FrameX and Talent Portal.</desc>
+  <desc>Full-Stack AI Engineer at ModelSuite AI (Jun – Aug 2024) with 60+ production features across FrameX and Talent Portal.</desc>
   {COMMON_DEFS}
   {COMMON_STYLES}
   <rect width="1200" height="370" rx="20" fill="url(#bg)"/>
@@ -405,7 +405,7 @@ def build_experience():
   <rect class="tbl" x=".5" y=".5" width="1199" height="369" rx="19.5" pathLength="1000" style="animation-delay: -1.7s;"/>
 
   <!-- Left Side: Role, Company & Big Number -->
-  <text class="mono" x="56" y="62" font-size="12" letter-spacing="3" fill="#C77B9B">FULL-STACK AI ENGINEER · 2024 – PRESENT</text>
+  <text class="mono" x="56" y="62" font-size="12" letter-spacing="3" fill="#C77B9B">FULL-STACK AI ENGINEER · JUN – AUG 2024</text>
   <text class="serif" x="54" y="118" font-size="52" font-weight="300" letter-spacing="-1.5" fill="#F8F0F3">ModelSuite AI</text>
   <text class="sans" x="56" y="156" font-size="16" fill="#B6A3AC">Architecting production platforms, AI workflow engines, and low-latency APIs.</text>
 
@@ -421,62 +421,116 @@ def build_experience():
 </svg>"""
 
 def build_toolkit():
-    # 3x2 grid of cards: numbered mono heading, 3 serif lines, optional footer
+    # 3x2 grid of cards covering the entire skill set provided by the user
+    # Width 360, Height 216, 6 comprehensive categories
     cards = [
-        ("01 LANGUAGES", ["TypeScript · JavaScript", "Python", "SQL"], None, 32, 32, -1.1),
-        ("02 AI · LLM", ["LangChain · LangGraph", "OpenAI · Gemini", "HuggingFace · Ollama"], "RAG · EMBEDDINGS · SSE", 420, 32, -2.6),
-        ("03 FRONTEND", ["React · Next.js", "Redux · Zustand", "Tailwind CSS"], None, 808, 32, -4.0),
-        ("04 BACKEND &amp; DATA", ["Node.js · Express", "MongoDB · PostgreSQL", "Prisma · Redis"], None, 32, 268, -5.3),
-        ("05 ASYNC &amp; QUEUES", ["BullMQ · Redis", "Stripe · Cloudinary", "JWT · OAuth"], None, 420, 268, -6.5),
-        ("06 DEVOPS &amp; CLOUD", ["Docker · Git", "GitHub Actions", "Vercel · Render"], "LEARNING AWS · LINUX", 808, 268, -0.6),
+        (
+            "01 LANGUAGES",
+            [
+                ("JavaScript (ES6+) · TypeScript", 21, "#F8F0F3"),
+                ("Python · SQL", 21, "#F8F0F3"),
+                ("Type-Safe API Contracts &amp; Data Logic", 16.5, "#B6A3AC")
+            ],
+            "ASYNC/AWAIT · PROTOCOLS · SCRIPTS",
+            32, 28, -1.1
+        ),
+        (
+            "02 AI &amp; MULTI-AGENT",
+            [
+                ("LangChain · LangGraph", 22, "#F8F0F3"),
+                ("OpenAI · Gemini · Ollama", 20, "#F8F0F3"),
+                ("Multi-Agent · Tool &amp; Function Calling", 16.5, "#B6A3AC")
+            ],
+            "HUGGINGFACE API · PROMPT ENGINEERING",
+            420, 28, -2.6
+        ),
+        (
+            "03 RAG &amp; RETRIEVAL",
+            [
+                ("Embeddings · Vector Search", 21, "#F8F0F3"),
+                ("Semantic Search &amp; Ranking", 20, "#F8F0F3"),
+                ("Multi-Source Document Retrieval", 16.5, "#B6A3AC")
+            ],
+            "CITATION GROUNDING · COSINE SIMILARITY",
+            808, 28, -4.0
+        ),
+        (
+            "04 BACKEND &amp; REAL-TIME",
+            [
+                ("Node.js · Express.js · REST APIs", 20.5, "#F8F0F3"),
+                ("Redis · BullMQ · Socket.io", 20, "#F8F0F3"),
+                ("Server-Sent Events (SSE) · JWT Auth", 16.5, "#B6A3AC")
+            ],
+            "OAUTH 2.0 · ASYNC WORKERS · WEBSOCKETS",
+            32, 276, -5.3
+        ),
+        (
+            "05 FRONTEND",
+            [
+                ("React.js · Next.js (App Router)", 21, "#F8F0F3"),
+                ("Redux Toolkit · Zustand", 20, "#F8F0F3"),
+                ("Tailwind CSS · Responsive Systems", 16.5, "#B6A3AC")
+            ],
+            "COMPONENT STATE · CLIENT HYDRATION · SSR",
+            420, 276, -6.5
+        ),
+        (
+            "06 DATA, CLOUD &amp; DEVOPS",
+            [
+                ("MongoDB (Mongoose) · PostgreSQL", 19.5, "#F8F0F3"),
+                ("Prisma ORM · Docker · CI/CD", 20, "#F8F0F3"),
+                ("Vercel · Render · Git &amp; GitHub", 16.5, "#B6A3AC")
+            ],
+            "POSTMAN · STRIPE · CLOUDINARY INTEGRATIONS",
+            808, 276, -0.6
+        ),
     ]
 
     cards_xml = []
     for num_head, lines, footer, cx, cy, tbl_delay in cards:
         lines_xml = []
-        ly = 82
-        for i, l in enumerate(lines):
-            sz = 30 if i == 0 else 22
-            col = "#F8F0F3" if i < 2 else "#B6A3AC"
-            lines_xml.append(f'<text class="serif" x="24" y="{ly}" font-size="{sz}" font-weight="300" fill="{col}">{l}</text>')
-            ly += 42
+        ly = 72
+        for text, sz, col in lines:
+            lines_xml.append(f'<text class="serif" x="24" y="{ly}" font-size="{sz}" font-weight="300" fill="{col}">{text}</text>')
+            ly += 36
         lines_str = "\n".join(lines_xml)
 
-        footer_xml = f'<text class="mono" x="24" y="188" font-size="9.5" letter-spacing="2" fill="#B6A3AC">{footer}</text>' if footer else ""
+        footer_xml = f'<text class="mono" x="24" y="194" font-size="8.8" letter-spacing="1.4" fill="#E5B5C7">{footer}</text>' if footer else ""
 
         # PROPER NESTING: <g transform="translate(x y)"><g class="in"> ... to avoid CSS transform bug!
         cards_xml.append(f"""
   <g transform="translate({cx} {cy})">
     <g class="in">
-      <rect width="360" height="200" rx="16" fill="#190B12" stroke="#C77B9B" stroke-opacity=".25"/>
-      <rect class="tbl" width="360" height="200" rx="16" pathLength="1000" style="animation-delay: {tbl_delay:.2f}s;"/>
-      <text class="mono" x="24" y="34" font-size="10.5" letter-spacing="3" fill="#C77B9B">{num_head}</text>
+      <rect width="360" height="216" rx="16" fill="#190B12" stroke="#C77B9B" stroke-opacity=".25"/>
+      <rect class="tbl" width="360" height="216" rx="16" pathLength="1000" style="animation-delay: {tbl_delay:.2f}s;"/>
+      <text class="mono" x="24" y="32" font-size="10" letter-spacing="2.5" fill="#C77B9B">{num_head}</text>
       {lines_str}
+      <line x1="24" y1="168" x2="336" y2="168" stroke="#C77B9B" stroke-opacity=".15"/>
       {footer_xml}
     </g>
   </g>""")
 
     cards_str = "\n".join(cards_xml)
 
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="1200" height="500" role="img" aria-label="Toolkit: Languages, AI &amp; LLM, Frontend, Backend &amp; Data, Async &amp; Queues, DevOps &amp; Cloud.">
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520" role="img" aria-label="Toolkit: Languages, AI &amp; Multi-Agent, RAG &amp; Retrieval, Backend &amp; Real-Time, Frontend, Data, Cloud &amp; DevOps.">
   <title>Toolkit &amp; Tech Constellation</title>
-  <desc>Engineering skills across languages, frameworks, AI libraries, and cloud infra.</desc>
+  <desc>Comprehensive engineering stack covering TypeScript, Python, LangGraph, RAG, React, Next.js, Node.js, Redis, MongoDB, PostgreSQL, Docker, and Cloud CI/CD.</desc>
   {COMMON_DEFS}
   {COMMON_STYLES}
-  <rect width="1200" height="500" rx="20" fill="url(#bg)"/>
-  <rect width="1200" height="500" rx="20" fill="url(#glow)"/>
-  <rect width="1200" height="500" rx="20" fill="url(#grid)"/>
-  <rect x=".5" y=".5" width="1199" height="499" rx="19.5" fill="none" stroke="#C77B9B" stroke-opacity=".16"/>
-  <rect class="tbl" x=".5" y=".5" width="1199" height="499" rx="19.5" pathLength="1000" style="animation-delay: -2.0s;"/>
+  <rect width="1200" height="520" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="520" rx="20" fill="url(#glow)"/>
+  <rect width="1200" height="520" rx="20" fill="url(#grid)"/>
+  <rect x=".5" y=".5" width="1199" height="519" rx="19.5" fill="none" stroke="#C77B9B" stroke-opacity=".16"/>
+  <rect class="tbl" x=".5" y=".5" width="1199" height="519" rx="19.5" pathLength="1000" style="animation-delay: -2.0s;"/>
 
   <!-- Connector Web in Gutters -->
-  <path d="M40 250H1160" stroke="#C77B9B" stroke-opacity=".2" stroke-dasharray="8 6"/>
-  <path d="M406 32V468" stroke="#C77B9B" stroke-opacity=".2" stroke-dasharray="8 6"/>
-  <path d="M794 32V468" stroke="#C77B9B" stroke-opacity=".2" stroke-dasharray="8 6"/>
+  <path d="M40 260H1160" stroke="#C77B9B" stroke-opacity=".2" stroke-dasharray="8 6"/>
+  <path d="M406 28V492" stroke="#C77B9B" stroke-opacity=".2" stroke-dasharray="8 6"/>
+  <path d="M794 28V492" stroke="#C77B9B" stroke-opacity=".2" stroke-dasharray="8 6"/>
 
   <!-- Glowing Pulse Dot travelling along the horizontal gutter -->
   <circle r="4" fill="#E5B5C7" filter="url(#pulseGlow)">
-    <animateMotion path="M40 250H1160" dur="8s" repeatCount="indefinite"/>
+    <animateMotion path="M40 260H1160" dur="8s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0;1;1;0" dur="8s" repeatCount="indefinite"/>
   </circle>
 
