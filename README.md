@@ -129,7 +129,7 @@
 <!-- 08 CONNECT -->
 <img src="assets/title-connect.svg" width="100%" alt="07 Connect — Let's build something reliable" />
 <p align="center">
-  <a href="https://portfolio-sanjay-aggi.vercel.app/" target="_blank">
+  <a href="https://sanjayaggi-portfolio.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/PORTFOLIO-SANJAY_AGGI-701A3D?style=for-the-badge&logo=vercel&logoColor=E5B5C7&labelColor=190B12" alt="Portfolio" />
   </a>
   &nbsp;&nbsp;
