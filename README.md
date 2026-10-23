@@ -14,8 +14,22 @@
 <!-- 03 SELECTED WORK -->
 <img src="assets/title-work.svg" width="100%" alt="02 Selected Work — Six production AI systems" />
 
-<!-- Project 01: Curalink -->
-<img src="assets/project-curalink.svg" width="100%" alt="Project 01: Curalink — AI medical research assistant with multi-source RAG" />
+<!-- Project 01: ReviewFlow AI -->
+<img src="assets/project-reviewflow.svg" width="100%" alt="Project 01: ReviewFlow AI — AI code review and repository intelligence with GitHub App" />
+<p align="center">
+  <a href="https://ai-code-review-bot-lake.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/LIVE_DEMO-REVIEWFLOW_AI-701A3D?style=for-the-badge&logo=vercel&logoColor=E5B5C7&labelColor=190B12" alt="ReviewFlow AI Live Demo" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/aggisanjay" target="_blank">
+    <img src="https://img.shields.io/badge/ARCHITECTURE-GITHUB_APP_·_CODE_RAG-701A3D?style=for-the-badge&logo=github&logoColor=E5B5C7&labelColor=190B12" alt="ReviewFlow AI Architecture" />
+  </a>
+</p>
+
+<br/>
+
+<!-- Project 02: Curalink -->
+<img src="assets/project-curalink.svg" width="100%" alt="Project 02: Curalink — AI medical research assistant with multi-source RAG" />
 <p align="center">
   <a href="https://ai-medical-research-assistant-ibet.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/LIVE_DEMO-CURALINK_RAG-701A3D?style=for-the-badge&logo=vercel&logoColor=E5B5C7&labelColor=190B12" alt="Curalink Live Demo" />
@@ -23,20 +37,6 @@
   &nbsp;&nbsp;
   <a href="https://github.com/aggisanjay" target="_blank">
     <img src="https://img.shields.io/badge/ARCHITECTURE-MULTI--SOURCE_RAG-701A3D?style=for-the-badge&logo=github&logoColor=E5B5C7&labelColor=190B12" alt="Curalink Architecture" />
-  </a>
-</p>
-
-<br/>
-
-<!-- Project 02: ShopAI -->
-<img src="assets/project-shopai.svg" width="100%" alt="Project 02: ShopAI — High-performance commerce platform with Redis cache-aside" />
-<p align="center">
-  <a href="https://shopai-app.netlify.app" target="_blank">
-    <img src="https://img.shields.io/badge/LIVE_DEMO-SHOPAI_COMMERCE-701A3D?style=for-the-badge&logo=netlify&logoColor=E5B5C7&labelColor=190B12" alt="ShopAI Live Demo" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/aggisanjay" target="_blank">
-    <img src="https://img.shields.io/badge/ARCHITECTURE-REDIS_CACHE--ASIDE-701A3D?style=for-the-badge&logo=redis&logoColor=E5B5C7&labelColor=190B12" alt="ShopAI Architecture" />
   </a>
 </p>
 
@@ -56,43 +56,43 @@
 
 <br/>
 
-<!-- Project 04: HireIQ -->
-<img src="assets/project-hireiq.svg" width="100%" alt="Project 04: HireIQ — AI resume intelligence and weighted matching engine" />
+<!-- Project 04: Calendar Agent -->
+<img src="assets/project-calendar-agent.svg" width="100%" alt="Project 04: Calendar Agent — Natural-language calendar assistant with Google Meet automation and SSE" />
 <p align="center">
-  <a href="https://ai-hiring-intelligence-platform.netlify.app/" target="_blank">
-    <img src="https://img.shields.io/badge/LIVE_DEMO-HIREIQ_AI-701A3D?style=for-the-badge&logo=netlify&logoColor=E5B5C7&labelColor=190B12" alt="HireIQ Live Demo" />
+  <a href="https://agentic-google-meet-assistant.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/LIVE_DEMO-CALENDAR_AGENT-701A3D?style=for-the-badge&logo=vercel&logoColor=E5B5C7&labelColor=190B12" alt="Calendar Agent Live Demo" />
   </a>
   &nbsp;&nbsp;
   <a href="https://github.com/aggisanjay" target="_blank">
-    <img src="https://img.shields.io/badge/ARCHITECTURE-GEMINI_SCORING-701A3D?style=for-the-badge&logo=google&logoColor=E5B5C7&labelColor=190B12" alt="HireIQ Architecture" />
+    <img src="https://img.shields.io/badge/ARCHITECTURE-MASTRA_·_TOOL_CALLING-701A3D?style=for-the-badge&logo=google&logoColor=E5B5C7&labelColor=190B12" alt="Calendar Agent Architecture" />
   </a>
 </p>
 
 <br/>
 
-<!-- Project 05: Zernio -->
-<img src="assets/project-zernio.svg" width="100%" alt="Project 05: Zernio — Social media automation across multiple platforms with BullMQ and Redis scheduling" />
+<!-- Project 05: ShopAI -->
+<img src="assets/project-shopai.svg" width="100%" alt="Project 05: ShopAI — High-performance commerce platform with Redis cache-aside" />
 <p align="center">
-  <a href="https://github.com/aggisanjay" target="_blank">
-    <img src="https://img.shields.io/badge/LIVE_DEMO-ZERNIO_AUTOMATION-701A3D?style=for-the-badge&logo=vercel&logoColor=E5B5C7&labelColor=190B12" alt="Zernio Live Demo" />
+  <a href="https://shopai-app.netlify.app" target="_blank">
+    <img src="https://img.shields.io/badge/LIVE_DEMO-SHOPAI_COMMERCE-701A3D?style=for-the-badge&logo=netlify&logoColor=E5B5C7&labelColor=190B12" alt="ShopAI Live Demo" />
   </a>
   &nbsp;&nbsp;
   <a href="https://github.com/aggisanjay" target="_blank">
-    <img src="https://img.shields.io/badge/ARCHITECTURE-BULLMQ_REDIS_QUEUE-701A3D?style=for-the-badge&logo=redis&logoColor=E5B5C7&labelColor=190B12" alt="Zernio Architecture" />
+    <img src="https://img.shields.io/badge/ARCHITECTURE-REDIS_CACHE--ASIDE-701A3D?style=for-the-badge&logo=redis&logoColor=E5B5C7&labelColor=190B12" alt="ShopAI Architecture" />
   </a>
 </p>
 
 <br/>
 
-<!-- Project 06: Doc Intel -->
-<img src="assets/project-doc-intel.svg" width="100%" alt="Project 06: AI Document Intelligence — RAG document Q&A with SSE-streamed answers" />
+<!-- Project 06: Aura Finance -->
+<img src="assets/project-aura-finance.svg" width="100%" alt="Project 06: Aura Finance — AI personal finance platform with precision analytics and Gemini" />
 <p align="center">
-  <a href="https://github.com/aggisanjay" target="_blank">
-    <img src="https://img.shields.io/badge/LIVE_DEMO-DOC_INTELLIGENCE-701A3D?style=for-the-badge&logo=nextdotjs&logoColor=E5B5C7&labelColor=190B12" alt="Document Intelligence Live Demo" />
+  <a href="https://ai-powered-personal-finance-platfor-ten.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/LIVE_DEMO-AURA_FINANCE-701A3D?style=for-the-badge&logo=vercel&logoColor=E5B5C7&labelColor=190B12" alt="Aura Finance Live Demo" />
   </a>
   &nbsp;&nbsp;
   <a href="https://github.com/aggisanjay" target="_blank">
-    <img src="https://img.shields.io/badge/ARCHITECTURE-RAG_SSE_STREAMING-701A3D?style=for-the-badge&logo=postgresql&logoColor=E5B5C7&labelColor=190B12" alt="Document Intelligence Architecture" />
+    <img src="https://img.shields.io/badge/ARCHITECTURE-FASTAPI_·_GROUNDED_GEMINI-701A3D?style=for-the-badge&logo=fastapi&logoColor=E5B5C7&labelColor=190B12" alt="Aura Finance Architecture" />
   </a>
 </p>
 

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-label="Zernio: Social media automation across multiple platforms.. Built: OAuth linking + BullMQ/Redis scheduling + AI content. Stack: React, Node.js, MongoDB, Redis, Gemini, Groq.">
-  <title>Zernio: Social media automation across multiple platforms.</title>
-  <desc>Built: OAuth linking + BullMQ/Redis scheduling + AI content. Stack: React, Node.js, MongoDB, Redis, Gemini, Groq.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-label="ReviewFlow AI: AI code review &amp; codebase intelligence with GitHub integration.. Built: static checks + LLM diff reasoning + RAG codebase Q&amp;A. Stack: TypeScript, Next.js, Express, PostgreSQL, Redis, BullMQ.">
+  <title>ReviewFlow AI: AI code review &amp; codebase intelligence with GitHub integration.</title>
+  <desc>Built: static checks + LLM diff reasoning + RAG codebase Q&amp;A. Stack: TypeScript, Next.js, Express, PostgreSQL, Redis, BullMQ.</desc>
   <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
     <stop offset="0" stop-color="#190B12"/>
@@ -61,60 +61,60 @@
   <rect width="1200" height="370" rx="20" fill="url(#glow)"/>
   <rect width="1200" height="370" rx="20" fill="url(#grid)"/>
   <rect x=".5" y=".5" width="1199" height="369" rx="19.5" fill="none" stroke="#C77B9B" stroke-opacity=".16"/>
-  <rect class="tbl" x=".5" y=".5" width="1199" height="369" rx="19.5" pathLength="1000" style="animation-delay: -5.80s;"/>
+  <rect class="tbl" x=".5" y=".5" width="1199" height="369" rx="19.5" pathLength="1000" style="animation-delay: -1.00s;"/>
 
   <!-- Left Info -->
-  <text class="mono" x="56" y="62" font-size="12" letter-spacing="3" fill="#C77B9B">05 · AUTOMATION · SOCIAL</text>
-  <text class="serif" x="54" y="118" font-size="52" font-weight="300" letter-spacing="-1.5" fill="#F8F0F3">Zernio</text>
-  <text class="sans" x="56" y="160" font-size="18" fill="#B6A3AC">Social media automation across multiple platforms.</text>
-  <text class="mono" x="56" y="200" font-size="13" fill="#C77B9B">BUILT › <tspan fill="#E5B5C7">OAuth linking + BullMQ/Redis scheduling + AI content</tspan></text>
+  <text class="mono" x="56" y="62" font-size="12" letter-spacing="3" fill="#C77B9B">01 · AI · CODE REVIEW · RAG</text>
+  <text class="serif" x="54" y="118" font-size="52" font-weight="300" letter-spacing="-1.5" fill="#F8F0F3">ReviewFlow AI</text>
+  <text class="sans" x="56" y="160" font-size="18" fill="#B6A3AC">AI code review &amp; codebase intelligence with GitHub integration.</text>
+  <text class="mono" x="56" y="200" font-size="13" fill="#C77B9B">BUILT › <tspan fill="#E5B5C7">static checks + LLM diff reasoning + RAG codebase Q&amp;A</tspan></text>
   <path d="M56 222H656" stroke="#C77B9B" stroke-opacity=".3"/>
 
   <!-- 3 Stats -->
-  <text class="serif" x="56" y="262" font-size="28" font-weight="300" fill="#F8F0F3">OAuth</text>
-  <text class="sans" x="56" y="284" font-size="14" fill="#B6A3AC">account linking</text>
+  <text class="serif" x="56" y="262" font-size="28" font-weight="300" fill="#F8F0F3">PR Diff</text>
+  <text class="sans" x="56" y="284" font-size="14" fill="#B6A3AC">static + LLM review</text>
 
-  <text class="serif" x="261" y="262" font-size="28" font-weight="300" fill="#F8F0F3">BullMQ</text>
-  <text class="sans" x="261" y="284" font-size="14" fill="#B6A3AC">Redis scheduling</text>
+  <text class="serif" x="261" y="262" font-size="28" font-weight="300" fill="#F8F0F3">RAG</text>
+  <text class="sans" x="261" y="284" font-size="14" fill="#B6A3AC">codebase intelligence</text>
 
-  <text class="serif" x="466" y="262" font-size="28" font-weight="300" fill="#F8F0F3">AI</text>
-  <text class="sans" x="466" y="284" font-size="14" fill="#B6A3AC">content generation</text>
+  <text class="serif" x="466" y="262" font-size="28" font-weight="300" fill="#F8F0F3">BullMQ</text>
+  <text class="sans" x="466" y="284" font-size="14" fill="#B6A3AC">async job workers</text>
 
   <!-- Chips -->
-  <rect x="56" y="316" width="65" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
-<text class="mono" x="88" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">React</text>
-<rect x="131" y="316" width="83" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
-<text class="mono" x="172" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">Node.js</text>
-<rect x="224" y="316" width="83" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
-<text class="mono" x="265" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">MongoDB</text>
-<rect x="317" y="316" width="65" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
-<text class="mono" x="349" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">Redis</text>
-<rect x="392" y="316" width="74" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
-<text class="mono" x="429" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">Gemini</text>
-<rect x="476" y="316" width="56" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
-<text class="mono" x="504" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">Groq</text>
+  <rect x="56" y="316" width="110" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
+<text class="mono" x="111" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">TypeScript</text>
+<rect x="176" y="316" width="83" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
+<text class="mono" x="217" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">Next.js</text>
+<rect x="269" y="316" width="83" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
+<text class="mono" x="310" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">Express</text>
+<rect x="362" y="316" width="110" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
+<text class="mono" x="417" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">PostgreSQL</text>
+<rect x="482" y="316" width="65" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
+<text class="mono" x="514" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">Redis</text>
+<rect x="557" y="316" width="74" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
+<text class="mono" x="594" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">BullMQ</text>
 
   <!-- Node Flow on Right -->
   <text class="mono" x="760" y="92" font-size="11" letter-spacing="3" fill="#B6A3AC">DATA FLOW PIPELINE</text>
   
     <rect x="760" y="150" width="78" height="40" rx="20" fill="#190B12" stroke="#C77B9B" stroke-opacity=".5"/>
-    <text class="mono" x="799" y="175" text-anchor="middle" font-size="11.5" fill="#F8F0F3">compose</text>
+    <text class="mono" x="799" y="175" text-anchor="middle" font-size="11.5" fill="#F8F0F3">webhook</text>
 <path d="M838 170 h20" stroke="#C77B9B" stroke-opacity=".7"/>
 
     <rect x="858" y="150" width="78" height="40" rx="20" fill="#190B12" stroke="#C77B9B" stroke-opacity=".5"/>
-    <text class="mono" x="897" y="175" text-anchor="middle" font-size="11.5" fill="#F8F0F3">queue</text>
+    <text class="mono" x="897" y="175" text-anchor="middle" font-size="11.5" fill="#F8F0F3">diff parse</text>
 <path d="M936 170 h20" stroke="#C77B9B" stroke-opacity=".7"/>
 
     <rect x="956" y="150" width="78" height="40" rx="20" fill="#190B12" stroke="#C77B9B" stroke-opacity=".5"/>
-    <text class="mono" x="995" y="175" text-anchor="middle" font-size="11.5" fill="#F8F0F3">schedule</text>
+    <text class="mono" x="995" y="175" text-anchor="middle" font-size="11.5" fill="#F8F0F3">LLM review</text>
 <path d="M1034 170 h20" stroke="#C77B9B" stroke-opacity=".7"/>
 
     <rect x="1054" y="150" width="78" height="40" rx="20" fill="#190B12" stroke="#C77B9B" stroke-opacity=".5"/>
-    <text class="mono" x="1093" y="175" text-anchor="middle" font-size="11.5" fill="#F8F0F3">post</text>
+    <text class="mono" x="1093" y="175" text-anchor="middle" font-size="11.5" fill="#F8F0F3">comment</text>
   <circle r="4" fill="#F8F0F3">
     <animate attributeName="cx" values="760;1132" dur="5s" repeatCount="indefinite"/>
     <animate attributeName="cy" values="170;170" dur="5s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0;1;1;0" dur="5s" repeatCount="indefinite"/>
   </circle>
-  <text class="mono" x="760" y="308" font-size="11.5" letter-spacing="1" fill="#B6A3AC">fallback scheduling · Gemini + Groq</text>
+  <text class="mono" x="760" y="308" font-size="11.5" letter-spacing="1" fill="#B6A3AC">GitHub App webhook · BullMQ workers · code RAG</text>
 </svg>

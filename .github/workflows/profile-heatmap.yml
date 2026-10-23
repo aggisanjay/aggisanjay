@@ -2,9 +2,15 @@ name: Refresh profile heatmap & GitHub glance
 
 on:
   schedule:
-    # Daily at 05:30 UTC
-    - cron: "30 5 * * *"
+    # Every 6 hours
+    - cron: "0 */6 * * *"
   workflow_dispatch: {}
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'assets/**'
+      - 'site/data/**'
 
 permissions:
   contents: write

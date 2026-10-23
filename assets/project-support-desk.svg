@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-label="Support Desk: Autonomous LangGraph state machine with deterministic human routing.. Built: stateful triage + tool execution + human-in-the-loop fallback. Stack: React, Node.js, LangGraph, OpenAI, PostgreSQL.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-label="Support Desk: Autonomous LangGraph state machine with deterministic human routing.. Built: stateful triage + tool execution + human-in-the-loop fallback. Stack: React, Node.js, LangGraph, Gemini, OpenAI, Zod.">
   <title>Support Desk: Autonomous LangGraph state machine with deterministic human routing.</title>
-  <desc>Built: stateful triage + tool execution + human-in-the-loop fallback. Stack: React, Node.js, LangGraph, OpenAI, PostgreSQL.</desc>
+  <desc>Built: stateful triage + tool execution + human-in-the-loop fallback. Stack: React, Node.js, LangGraph, Gemini, OpenAI, Zod.</desc>
   <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
     <stop offset="0" stop-color="#190B12"/>
@@ -61,7 +61,7 @@
   <rect width="1200" height="370" rx="20" fill="url(#glow)"/>
   <rect width="1200" height="370" rx="20" fill="url(#grid)"/>
   <rect x=".5" y=".5" width="1199" height="369" rx="19.5" fill="none" stroke="#C77B9B" stroke-opacity=".16"/>
-  <rect class="tbl" x=".5" y=".5" width="1199" height="369" rx="19.5" pathLength="1000" style="animation-delay: -3.40s;"/>
+  <rect class="tbl" x=".5" y=".5" width="1199" height="369" rx="19.5" pathLength="1000" style="animation-delay: -3.00s;"/>
 
   <!-- Left Info -->
   <text class="mono" x="56" y="62" font-size="12" letter-spacing="3" fill="#C77B9B">03 · AGENTIC AI · AUTOMATION</text>
@@ -88,9 +88,11 @@
 <rect x="224" y="316" width="101" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
 <text class="mono" x="274" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">LangGraph</text>
 <rect x="335" y="316" width="74" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
-<text class="mono" x="372" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">OpenAI</text>
-<rect x="419" y="316" width="110" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
-<text class="mono" x="474" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">PostgreSQL</text>
+<text class="mono" x="372" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">Gemini</text>
+<rect x="419" y="316" width="74" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
+<text class="mono" x="456" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">OpenAI</text>
+<rect x="503" y="316" width="55" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
+<text class="mono" x="530" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">Zod</text>
 
   <!-- Node Flow on Right -->
   <text class="mono" x="760" y="92" font-size="11" letter-spacing="3" fill="#B6A3AC">DATA FLOW PIPELINE</text>

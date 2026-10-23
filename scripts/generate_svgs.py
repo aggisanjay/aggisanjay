@@ -17,6 +17,7 @@ Strictly adheres to the Sushmita Dasari dark-burgundy portfolio design system:
 
 import os
 import base64
+import json
 
 ASSETS_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "assets"))
 PUBLIC_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "public"))
@@ -792,64 +793,64 @@ def generate_all():
     # Selected Work (6 Project Cards)
     projects = [
         (
-            "project-curalink.svg", "01", "AI · RAG · HEALTHCARE", "Curalink",
-            "AI medical research assistant with multi-source RAG.",
-            "parallel retrieval + custom ranking + structured reports",
-            [("3", "sources queried in parallel"), ("3-tier", "LLM fallback"), ("RAG", "structured reports")],
-            ["React", "Node.js", "MongoDB", "HuggingFace", "Ollama"],
-            ["query", "retrieve", "rank", "report"],
-            "PubMed · OpenAlex · ClinicalTrials.gov",
+            "project-reviewflow.svg", "01", "AI · CODE REVIEW · RAG", "ReviewFlow AI",
+            "AI code review &amp; codebase intelligence with GitHub integration.",
+            "static checks + LLM diff reasoning + RAG codebase Q&amp;A",
+            [("PR Diff", "static + LLM review"), ("RAG", "codebase intelligence"), ("BullMQ", "async job workers")],
+            ["TypeScript", "Next.js", "Express", "PostgreSQL", "Redis", "BullMQ"],
+            ["webhook", "diff parse", "LLM review", "comment"],
+            "GitHub App webhook · BullMQ workers · code RAG",
             -1.0
         ),
         (
-            "project-shopai.svg", "02", "E-COMMERCE · PERFORMANCE", "ShopAI",
-            "High-performance commerce platform with Redis cache-aside.",
-            "cache-aside pattern + cart state machine + responsive UI",
-            [("66%", "latency drop"), ("150ms", "p95 response time"), ("Zero", "cache stampede")],
-            ["React", "Node.js", "Redis", "MongoDB", "Tailwind"],
-            ["request", "cache check", "db fallback", "hydrate"],
-            "cache-aside · Redis cluster · instant load",
-            -2.2
+            "project-curalink.svg", "02", "AI · RAG · HEALTHCARE", "Curalink",
+            "AI medical research assistant with multi-source RAG.",
+            "parallel retrieval + custom ranking + structured reports",
+            [("3", "sources queried in parallel"), ("3-tier", "LLM fallback"), ("RAG", "structured reports")],
+            ["React", "Node.js", "MongoDB", "Groq", "HuggingFace", "Ollama"],
+            ["query", "retrieve", "rank", "report"],
+            "PubMed · OpenAlex · ClinicalTrials.gov",
+            -2.0
         ),
         (
             "project-support-desk.svg", "03", "AGENTIC AI · AUTOMATION", "Support Desk",
             "Autonomous LangGraph state machine with deterministic human routing.",
             "stateful triage + tool execution + human-in-the-loop fallback",
             [("Stateful", "graph cycles"), ("4", "tool integrations"), ("Auto", "human handoff")],
-            ["React", "Node.js", "LangGraph", "OpenAI", "PostgreSQL"],
+            ["React", "Node.js", "LangGraph", "Gemini", "OpenAI", "Zod"],
             ["ticket", "classify", "tool call", "resolve"],
             "LangGraph state machine · human in the loop",
-            -3.4
+            -3.0
         ),
         (
-            "project-hireiq.svg", "04", "RECRUITMENT · MATCHING", "HireIQ",
-            "AI resume intelligence and weighted matching engine.",
-            "PDF extraction + vector similarity + structured criteria scoring",
-            [("Weighted", "scoring engine"), ("Gemini", "parsing"), ("Instant", "candidate match")],
-            ["React", "Node.js", "Gemini", "Express", "Tailwind"],
-            ["resume", "extract", "vector match", "score"],
-            "multi-dimensional candidate fit scoring",
-            -4.6
+            "project-calendar-agent.svg", "04", "AGENTIC AI · SCHEDULING", "Calendar Agent",
+            "Conversational calendar assistant with Google Meet automation &amp; SSE.",
+            "Mastra orchestration + Gemini tool calling + SSE streaming",
+            [("Mastra", "agent tool calling"), ("SSE", "live step streaming"), ("OAuth", "Descope token flow")],
+            ["Next.js", "Express", "Mastra", "Gemini", "Descope", "PostgreSQL"],
+            ["intent", "tool plan", "calendar API", "stream"],
+            "natural-language booking · Google Meet links",
+            -4.0
         ),
         (
-            "project-zernio.svg", "05", "AUTOMATION · SOCIAL", "Zernio",
-            "Social media automation across multiple platforms.",
-            "OAuth linking + BullMQ/Redis scheduling + AI content",
-            [("OAuth", "account linking"), ("BullMQ", "Redis scheduling"), ("AI", "content generation")],
-            ["React", "Node.js", "MongoDB", "Redis", "Gemini", "Groq"],
-            ["compose", "queue", "schedule", "post"],
-            "fallback scheduling · Gemini + Groq",
-            -5.8
+            "project-shopai.svg", "05", "E-COMMERCE · PERFORMANCE", "ShopAI",
+            "High-performance commerce platform with Redis cache-aside.",
+            "cache-aside pattern + single-flight deduplication + Prometheus",
+            [("82%", "latency drop"), ("117ms", "p95 response time"), ("Prometheus", "prom-client metrics")],
+            ["React", "Node.js", "Redis", "MongoDB", "Stripe", "Prometheus"],
+            ["request", "cache check", "db fallback", "hydrate"],
+            "cache-aside · Redis cluster · instant load",
+            -5.0
         ),
         (
-            "project-doc-intel.svg", "06", "RAG · DOCUMENTS", "AI Document Intelligence",
-            "RAG document Q&amp;A with SSE-streamed answers.",
-            "embeddings + semantic retrieval + per-user isolation",
-            [("SSE", "token streaming"), ("MiniLM", "L6-v2 embeddings"), ("Per-user", "document isolation")],
-            ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "Gemini"],
-            ["extract", "chunk", "embed", "stream"],
-            "semantic retrieval · Gemini responses",
-            -0.5
+            "project-aura-finance.svg", "06", "FINTECH · AI ANALYTICS", "Aura Finance",
+            "AI personal finance platform with precision analytics &amp; Gemini.",
+            "Python Decimal precision + Gemini advisor + token cost tracking",
+            [("Decimal", "precision arithmetic"), ("Gemini", "financial insights"), ("Offline", "rule-based fallback")],
+            ["React 19", "FastAPI", "Python", "SQLAlchemy", "PostgreSQL", "Gemini"],
+            ["import", "categorize", "budget check", "advise"],
+            "SQLAlchemy NUMERIC(14,2) · grounded Gemini",
+            -6.0
         ),
     ]
     for fn, idx_s, cat, nm, dsc, blt, stats, chips, flw, cap, dly in projects:

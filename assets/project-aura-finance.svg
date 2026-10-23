@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-label="AI Document Intelligence: RAG document Q&amp;A with SSE-streamed answers.. Built: embeddings + semantic retrieval + per-user isolation. Stack: Next.js, TypeScript, PostgreSQL, Prisma, Gemini.">
-  <title>AI Document Intelligence: RAG document Q&amp;A with SSE-streamed answers.</title>
-  <desc>Built: embeddings + semantic retrieval + per-user isolation. Stack: Next.js, TypeScript, PostgreSQL, Prisma, Gemini.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-label="Aura Finance: AI personal finance platform with precision analytics &amp; Gemini.. Built: Python Decimal precision + Gemini advisor + token cost tracking. Stack: React 19, FastAPI, Python, SQLAlchemy, PostgreSQL, Gemini.">
+  <title>Aura Finance: AI personal finance platform with precision analytics &amp; Gemini.</title>
+  <desc>Built: Python Decimal precision + Gemini advisor + token cost tracking. Stack: React 19, FastAPI, Python, SQLAlchemy, PostgreSQL, Gemini.</desc>
   <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
     <stop offset="0" stop-color="#190B12"/>
@@ -61,58 +61,60 @@
   <rect width="1200" height="370" rx="20" fill="url(#glow)"/>
   <rect width="1200" height="370" rx="20" fill="url(#grid)"/>
   <rect x=".5" y=".5" width="1199" height="369" rx="19.5" fill="none" stroke="#C77B9B" stroke-opacity=".16"/>
-  <rect class="tbl" x=".5" y=".5" width="1199" height="369" rx="19.5" pathLength="1000" style="animation-delay: -0.50s;"/>
+  <rect class="tbl" x=".5" y=".5" width="1199" height="369" rx="19.5" pathLength="1000" style="animation-delay: -6.00s;"/>
 
   <!-- Left Info -->
-  <text class="mono" x="56" y="62" font-size="12" letter-spacing="3" fill="#C77B9B">06 · RAG · DOCUMENTS</text>
-  <text class="serif" x="54" y="118" font-size="52" font-weight="300" letter-spacing="-1.5" fill="#F8F0F3">AI Document Intelligence</text>
-  <text class="sans" x="56" y="160" font-size="18" fill="#B6A3AC">RAG document Q&amp;A with SSE-streamed answers.</text>
-  <text class="mono" x="56" y="200" font-size="13" fill="#C77B9B">BUILT › <tspan fill="#E5B5C7">embeddings + semantic retrieval + per-user isolation</tspan></text>
+  <text class="mono" x="56" y="62" font-size="12" letter-spacing="3" fill="#C77B9B">06 · FINTECH · AI ANALYTICS</text>
+  <text class="serif" x="54" y="118" font-size="52" font-weight="300" letter-spacing="-1.5" fill="#F8F0F3">Aura Finance</text>
+  <text class="sans" x="56" y="160" font-size="18" fill="#B6A3AC">AI personal finance platform with precision analytics &amp; Gemini.</text>
+  <text class="mono" x="56" y="200" font-size="13" fill="#C77B9B">BUILT › <tspan fill="#E5B5C7">Python Decimal precision + Gemini advisor + token cost tracking</tspan></text>
   <path d="M56 222H656" stroke="#C77B9B" stroke-opacity=".3"/>
 
   <!-- 3 Stats -->
-  <text class="serif" x="56" y="262" font-size="28" font-weight="300" fill="#F8F0F3">SSE</text>
-  <text class="sans" x="56" y="284" font-size="14" fill="#B6A3AC">token streaming</text>
+  <text class="serif" x="56" y="262" font-size="28" font-weight="300" fill="#F8F0F3">Decimal</text>
+  <text class="sans" x="56" y="284" font-size="14" fill="#B6A3AC">precision arithmetic</text>
 
-  <text class="serif" x="261" y="262" font-size="28" font-weight="300" fill="#F8F0F3">MiniLM</text>
-  <text class="sans" x="261" y="284" font-size="14" fill="#B6A3AC">L6-v2 embeddings</text>
+  <text class="serif" x="261" y="262" font-size="28" font-weight="300" fill="#F8F0F3">Gemini</text>
+  <text class="sans" x="261" y="284" font-size="14" fill="#B6A3AC">financial insights</text>
 
-  <text class="serif" x="466" y="262" font-size="28" font-weight="300" fill="#F8F0F3">Per-user</text>
-  <text class="sans" x="466" y="284" font-size="14" fill="#B6A3AC">document isolation</text>
+  <text class="serif" x="466" y="262" font-size="28" font-weight="300" fill="#F8F0F3">Offline</text>
+  <text class="sans" x="466" y="284" font-size="14" fill="#B6A3AC">rule-based fallback</text>
 
   <!-- Chips -->
-  <rect x="56" y="316" width="83" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
-<text class="mono" x="97" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">Next.js</text>
-<rect x="149" y="316" width="110" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
-<text class="mono" x="204" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">TypeScript</text>
-<rect x="269" y="316" width="110" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
-<text class="mono" x="324" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">PostgreSQL</text>
-<rect x="389" y="316" width="74" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
-<text class="mono" x="426" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">Prisma</text>
-<rect x="473" y="316" width="74" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
-<text class="mono" x="510" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">Gemini</text>
+  <rect x="56" y="316" width="92" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
+<text class="mono" x="102" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">React 19</text>
+<rect x="158" y="316" width="83" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
+<text class="mono" x="199" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">FastAPI</text>
+<rect x="251" y="316" width="74" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
+<text class="mono" x="288" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">Python</text>
+<rect x="335" y="316" width="110" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
+<text class="mono" x="390" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">SQLAlchemy</text>
+<rect x="455" y="316" width="110" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
+<text class="mono" x="510" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">PostgreSQL</text>
+<rect x="575" y="316" width="74" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
+<text class="mono" x="612" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">Gemini</text>
 
   <!-- Node Flow on Right -->
   <text class="mono" x="760" y="92" font-size="11" letter-spacing="3" fill="#B6A3AC">DATA FLOW PIPELINE</text>
   
     <rect x="760" y="150" width="78" height="40" rx="20" fill="#190B12" stroke="#C77B9B" stroke-opacity=".5"/>
-    <text class="mono" x="799" y="175" text-anchor="middle" font-size="11.5" fill="#F8F0F3">extract</text>
+    <text class="mono" x="799" y="175" text-anchor="middle" font-size="11.5" fill="#F8F0F3">import</text>
 <path d="M838 170 h20" stroke="#C77B9B" stroke-opacity=".7"/>
 
     <rect x="858" y="150" width="78" height="40" rx="20" fill="#190B12" stroke="#C77B9B" stroke-opacity=".5"/>
-    <text class="mono" x="897" y="175" text-anchor="middle" font-size="11.5" fill="#F8F0F3">chunk</text>
+    <text class="mono" x="897" y="175" text-anchor="middle" font-size="11.5" fill="#F8F0F3">categorize</text>
 <path d="M936 170 h20" stroke="#C77B9B" stroke-opacity=".7"/>
 
     <rect x="956" y="150" width="78" height="40" rx="20" fill="#190B12" stroke="#C77B9B" stroke-opacity=".5"/>
-    <text class="mono" x="995" y="175" text-anchor="middle" font-size="11.5" fill="#F8F0F3">embed</text>
+    <text class="mono" x="995" y="175" text-anchor="middle" font-size="11.5" fill="#F8F0F3">budget check</text>
 <path d="M1034 170 h20" stroke="#C77B9B" stroke-opacity=".7"/>
 
     <rect x="1054" y="150" width="78" height="40" rx="20" fill="#190B12" stroke="#C77B9B" stroke-opacity=".5"/>
-    <text class="mono" x="1093" y="175" text-anchor="middle" font-size="11.5" fill="#F8F0F3">stream</text>
+    <text class="mono" x="1093" y="175" text-anchor="middle" font-size="11.5" fill="#F8F0F3">advise</text>
   <circle r="4" fill="#F8F0F3">
     <animate attributeName="cx" values="760;1132" dur="5s" repeatCount="indefinite"/>
     <animate attributeName="cy" values="170;170" dur="5s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0;1;1;0" dur="5s" repeatCount="indefinite"/>
   </circle>
-  <text class="mono" x="760" y="308" font-size="11.5" letter-spacing="1" fill="#B6A3AC">semantic retrieval · Gemini responses</text>
+  <text class="mono" x="760" y="308" font-size="11.5" letter-spacing="1" fill="#B6A3AC">SQLAlchemy NUMERIC(14,2) · grounded Gemini</text>
 </svg>

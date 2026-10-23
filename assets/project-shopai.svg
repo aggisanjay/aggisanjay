@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-label="ShopAI: High-performance commerce platform with Redis cache-aside.. Built: cache-aside pattern + cart state machine + responsive UI. Stack: React, Node.js, Redis, MongoDB, Tailwind.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="1200" height="370" role="img" aria-label="ShopAI: High-performance commerce platform with Redis cache-aside.. Built: cache-aside pattern + single-flight deduplication + Prometheus. Stack: React, Node.js, Redis, MongoDB, Stripe, Prometheus.">
   <title>ShopAI: High-performance commerce platform with Redis cache-aside.</title>
-  <desc>Built: cache-aside pattern + cart state machine + responsive UI. Stack: React, Node.js, Redis, MongoDB, Tailwind.</desc>
+  <desc>Built: cache-aside pattern + single-flight deduplication + Prometheus. Stack: React, Node.js, Redis, MongoDB, Stripe, Prometheus.</desc>
   <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
     <stop offset="0" stop-color="#190B12"/>
@@ -61,24 +61,24 @@
   <rect width="1200" height="370" rx="20" fill="url(#glow)"/>
   <rect width="1200" height="370" rx="20" fill="url(#grid)"/>
   <rect x=".5" y=".5" width="1199" height="369" rx="19.5" fill="none" stroke="#C77B9B" stroke-opacity=".16"/>
-  <rect class="tbl" x=".5" y=".5" width="1199" height="369" rx="19.5" pathLength="1000" style="animation-delay: -2.20s;"/>
+  <rect class="tbl" x=".5" y=".5" width="1199" height="369" rx="19.5" pathLength="1000" style="animation-delay: -5.00s;"/>
 
   <!-- Left Info -->
-  <text class="mono" x="56" y="62" font-size="12" letter-spacing="3" fill="#C77B9B">02 · E-COMMERCE · PERFORMANCE</text>
+  <text class="mono" x="56" y="62" font-size="12" letter-spacing="3" fill="#C77B9B">05 · E-COMMERCE · PERFORMANCE</text>
   <text class="serif" x="54" y="118" font-size="52" font-weight="300" letter-spacing="-1.5" fill="#F8F0F3">ShopAI</text>
   <text class="sans" x="56" y="160" font-size="18" fill="#B6A3AC">High-performance commerce platform with Redis cache-aside.</text>
-  <text class="mono" x="56" y="200" font-size="13" fill="#C77B9B">BUILT › <tspan fill="#E5B5C7">cache-aside pattern + cart state machine + responsive UI</tspan></text>
+  <text class="mono" x="56" y="200" font-size="13" fill="#C77B9B">BUILT › <tspan fill="#E5B5C7">cache-aside pattern + single-flight deduplication + Prometheus</tspan></text>
   <path d="M56 222H656" stroke="#C77B9B" stroke-opacity=".3"/>
 
   <!-- 3 Stats -->
-  <text class="serif" x="56" y="262" font-size="28" font-weight="300" fill="#F8F0F3">66%</text>
+  <text class="serif" x="56" y="262" font-size="28" font-weight="300" fill="#F8F0F3">82%</text>
   <text class="sans" x="56" y="284" font-size="14" fill="#B6A3AC">latency drop</text>
 
-  <text class="serif" x="261" y="262" font-size="28" font-weight="300" fill="#F8F0F3">150ms</text>
+  <text class="serif" x="261" y="262" font-size="28" font-weight="300" fill="#F8F0F3">117ms</text>
   <text class="sans" x="261" y="284" font-size="14" fill="#B6A3AC">p95 response time</text>
 
-  <text class="serif" x="466" y="262" font-size="28" font-weight="300" fill="#F8F0F3">Zero</text>
-  <text class="sans" x="466" y="284" font-size="14" fill="#B6A3AC">cache stampede</text>
+  <text class="serif" x="466" y="262" font-size="28" font-weight="300" fill="#F8F0F3">Prometheus</text>
+  <text class="sans" x="466" y="284" font-size="14" fill="#B6A3AC">prom-client metrics</text>
 
   <!-- Chips -->
   <rect x="56" y="316" width="65" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
@@ -89,8 +89,10 @@
 <text class="mono" x="256" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">Redis</text>
 <rect x="299" y="316" width="83" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
 <text class="mono" x="340" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">MongoDB</text>
-<rect x="392" y="316" width="92" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
-<text class="mono" x="438" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">Tailwind</text>
+<rect x="392" y="316" width="74" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
+<text class="mono" x="429" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">Stripe</text>
+<rect x="476" y="316" width="110" height="26" rx="13" fill="#190B12" stroke="#C77B9B" stroke-opacity=".35"/>
+<text class="mono" x="531" y="333" text-anchor="middle" font-size="11.5" fill="#E5B5C7">Prometheus</text>
 
   <!-- Node Flow on Right -->
   <text class="mono" x="760" y="92" font-size="11" letter-spacing="3" fill="#B6A3AC">DATA FLOW PIPELINE</text>
