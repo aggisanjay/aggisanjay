@@ -4,3 +4,4 @@ temp_interactive_push.bat
 verification_screenshots/
 __pycache__/
 *.pyc
+.gitignore
