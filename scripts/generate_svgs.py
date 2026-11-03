@@ -156,7 +156,7 @@ def build_hero():
   <!-- Bottom Strip Credentials -->
   <path d="M72 446H1128" stroke="#C77B9B" stroke-opacity=".18"/>
   <text class="mono" x="72" y="466" font-size="11" letter-spacing="2" fill="#B6A3AC">MODELSUITE AI · 60+ PRODUCTION CHANGES</text>
-  <text class="mono" x="1128" y="466" text-anchor="end" font-size="11" letter-spacing="2" fill="#E5B5C7">6 SHIPPED AI PRODUCTS · REDIS · BULLMQ · LANGGRAPH</text>
+  <text class="mono" x="1128" y="466" text-anchor="end" font-size="11" letter-spacing="2" fill="#E5B5C7">7 SHIPPED SYSTEMS · REDIS · BULLMQ · LANGGRAPH · WEBRTC</text>
 
   <!-- Orbit Circle with Rotating Satellite Dot -->
   <circle cx="965" cy="250" r="190" fill="none" stroke="#C77B9B" stroke-opacity=".25"/>
@@ -188,9 +188,9 @@ def build_hero():
 </svg>"""
 
 def build_about_intro():
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="About Sanjay Aggi. Full-Stack AI Engineer at ModelSuite AI. React, Node.js, TypeScript, RAG, LangGraph. 60+ production changes; six shipped AI products.">
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="About Sanjay Aggi. Full-Stack AI Engineer at ModelSuite AI. React, Node.js, TypeScript, RAG, LangGraph. 60+ production changes; seven shipped production systems.">
   <title>About Sanjay Aggi</title>
-  <desc>Full-Stack AI Engineer at ModelSuite AI. React, Node.js, TypeScript, RAG, LangGraph. 60+ production changes; six shipped AI products.</desc>
+  <desc>Full-Stack AI Engineer at ModelSuite AI. React, Node.js, TypeScript, RAG, LangGraph. 60+ production changes; seven shipped production systems.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#190B12"/><stop offset="1" stop-color="#10070C"/></linearGradient>
     <radialGradient id="glow" cx="80%" cy="15%" r="75%"><stop offset="0" stop-color="#701A3D" stop-opacity=".6"/><stop offset="1" stop-color="#451126" stop-opacity="0"/></radialGradient>
@@ -547,7 +547,7 @@ def build_impact():
         ("60+", "PRODUCTION FEATURES", "Across FrameX &amp; Talent Portal at ModelSuite AI", 40, 40, -0.8),
         ("66%", "LATENCY REDUCTION", "p95 dropped from 450ms to 150ms with Redis", 420, 40, -2.1),
         ("40+", "REST APIS AUTHORED", "Production endpoints with strict validation", 800, 40, -3.4),
-        ("6", "AI PRODUCTS SHIPPED", "End-to-end full-stack systems in production", 40, 220, -4.7),
+        ("7", "SYSTEMS SHIPPED", "Production systems in active deployment", 40, 220, -4.7),
         ("99.8%", "SERVICE UPTIME", "High-reliability architecture with fallbacks", 420, 220, -5.9),
         ("3", "RAG PIPELINES DEPLOYED", "Hybrid vector search, reranking &amp; reports", 800, 220, -1.4),
     ]
@@ -568,7 +568,7 @@ def build_impact():
 
     tiles_str = "\n".join(tiles_xml)
 
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="Production Impact: 60+ features, 66% latency drop, 40+ REST APIs, 6 AI products, 99.8% uptime, 3 RAG pipelines.">
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="Production Impact: 60+ features, 66% latency drop, 40+ REST APIs, 7 production systems, 99.8% uptime, 3 RAG pipelines.">
   <title>Production Impact &amp; Metrics</title>
   <desc>Verified production metrics and performance measurements for Sanjay Aggi.</desc>
   {COMMON_DEFS}
@@ -851,6 +851,16 @@ def generate_all():
             ["import", "categorize", "budget check", "advise"],
             "SQLAlchemy NUMERIC(14,2) · grounded Gemini",
             -6.0
+        ),
+        (
+            "project-meetup.svg", "07", "REAL-TIME · WEBRTC · CRDTS", "MeetUp",
+            "Real-time video meetings &amp; collaborative workspace with CRDTs.",
+            "WebRTC mesh + Yjs CRDTs + Socket.IO + Neon PostgreSQL",
+            [("3 ms", "mean sync latency"), ("Yjs CRDT", "conflict-free merge"), ("RBAC", "host/editor/viewer roles")],
+            ["React 19", "Express", "WebRTC", "Socket.IO", "Yjs", "PostgreSQL"],
+            ["media stream", "WebRTC mesh", "CRDT sync", "snapshot"],
+            "WebRTC peer mesh · Socket.IO · Yjs snapshots",
+            -7.0
         ),
     ]
     for fn, idx_s, cat, nm, dsc, blt, stats, chips, flw, cap, dly in projects:

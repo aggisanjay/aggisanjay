@@ -12,7 +12,7 @@
 <br/><br/>
 
 <!-- 03 SELECTED WORK -->
-<img src="assets/title-work.svg" width="100%" alt="02 Selected Work — Six production AI systems" />
+<img src="assets/title-work.svg" width="100%" alt="02 Selected Work — Seven production systems" />
 
 <!-- Project 01: ReviewFlow AI -->
 <img src="assets/project-reviewflow.svg" width="100%" alt="Project 01: ReviewFlow AI — AI code review and repository intelligence with GitHub App" />
@@ -21,8 +21,12 @@
     <img src="https://img.shields.io/badge/LIVE_DEMO-REVIEWFLOW_AI-701A3D?style=for-the-badge&logo=vercel&logoColor=E5B5C7&labelColor=190B12" alt="ReviewFlow AI Live Demo" />
   </a>
   &nbsp;&nbsp;
-  <a href="https://github.com/aggisanjay" target="_blank">
-    <img src="https://img.shields.io/badge/ARCHITECTURE-GITHUB_APP_·_CODE_RAG-701A3D?style=for-the-badge&logo=github&logoColor=E5B5C7&labelColor=190B12" alt="ReviewFlow AI Architecture" />
+  <a href="https://github.com/aggisanjay/Ai-Code-Review-Bot" target="_blank">
+    <img src="https://img.shields.io/badge/GITHUB_REPO-Ai--Code--Review--Bot-701A3D?style=for-the-badge&logo=github&logoColor=E5B5C7&labelColor=190B12" alt="Ai-Code-Review-Bot Repository" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/aggisanjay/Ai-Code-Review-Bot" target="_blank">
+    <img src="https://img.shields.io/badge/ARCHITECTURE-GITHUB_APP_·_CODE_RAG-701A3D?style=for-the-badge&logo=git&logoColor=E5B5C7&labelColor=190B12" alt="ReviewFlow AI Architecture" />
   </a>
 </p>
 
@@ -35,8 +39,12 @@
     <img src="https://img.shields.io/badge/LIVE_DEMO-CURALINK_RAG-701A3D?style=for-the-badge&logo=vercel&logoColor=E5B5C7&labelColor=190B12" alt="Curalink Live Demo" />
   </a>
   &nbsp;&nbsp;
-  <a href="https://github.com/aggisanjay" target="_blank">
-    <img src="https://img.shields.io/badge/ARCHITECTURE-MULTI--SOURCE_RAG-701A3D?style=for-the-badge&logo=github&logoColor=E5B5C7&labelColor=190B12" alt="Curalink Architecture" />
+  <a href="https://github.com/aggisanjay/AI-Medical-Research-Assistant" target="_blank">
+    <img src="https://img.shields.io/badge/GITHUB_REPO-AI--Medical--Research--Assistant-701A3D?style=for-the-badge&logo=github&logoColor=E5B5C7&labelColor=190B12" alt="AI-Medical-Research-Assistant Repository" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/aggisanjay/AI-Medical-Research-Assistant" target="_blank">
+    <img src="https://img.shields.io/badge/ARCHITECTURE-MULTI--SOURCE_RAG-701A3D?style=for-the-badge&logo=git&logoColor=E5B5C7&labelColor=190B12" alt="Curalink Architecture" />
   </a>
 </p>
 
@@ -49,7 +57,11 @@
     <img src="https://img.shields.io/badge/LIVE_DEMO-AGENTIC_SUPPORT-701A3D?style=for-the-badge&logo=vercel&logoColor=E5B5C7&labelColor=190B12" alt="Support Desk Live Demo" />
   </a>
   &nbsp;&nbsp;
-  <a href="https://github.com/aggisanjay" target="_blank">
+  <a href="https://github.com/aggisanjay/fullstack_ai_Supportdesk_Agent_with_longchain" target="_blank">
+    <img src="https://img.shields.io/badge/GITHUB_REPO-Supportdesk--Agent-701A3D?style=for-the-badge&logo=github&logoColor=E5B5C7&labelColor=190B12" alt="Supportdesk Agent Repository" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/aggisanjay/fullstack_ai_Supportdesk_Agent_with_longchain" target="_blank">
     <img src="https://img.shields.io/badge/ARCHITECTURE-LANGGRAPH_STATE_MACHINE-701A3D?style=for-the-badge&logo=langchain&logoColor=E5B5C7&labelColor=190B12" alt="Support Desk Architecture" />
   </a>
 </p>
@@ -63,7 +75,11 @@
     <img src="https://img.shields.io/badge/LIVE_DEMO-CALENDAR_AGENT-701A3D?style=for-the-badge&logo=vercel&logoColor=E5B5C7&labelColor=190B12" alt="Calendar Agent Live Demo" />
   </a>
   &nbsp;&nbsp;
-  <a href="https://github.com/aggisanjay" target="_blank">
+  <a href="https://github.com/aggisanjay/agentic-google-meet-assistant" target="_blank">
+    <img src="https://img.shields.io/badge/GITHUB_REPO-agentic--meet--assistant-701A3D?style=for-the-badge&logo=github&logoColor=E5B5C7&labelColor=190B12" alt="agentic-google-meet-assistant Repository" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/aggisanjay/agentic-google-meet-assistant" target="_blank">
     <img src="https://img.shields.io/badge/ARCHITECTURE-MASTRA_·_TOOL_CALLING-701A3D?style=for-the-badge&logo=google&logoColor=E5B5C7&labelColor=190B12" alt="Calendar Agent Architecture" />
   </a>
 </p>
@@ -77,7 +93,11 @@
     <img src="https://img.shields.io/badge/LIVE_DEMO-SHOPAI_COMMERCE-701A3D?style=for-the-badge&logo=netlify&logoColor=E5B5C7&labelColor=190B12" alt="ShopAI Live Demo" />
   </a>
   &nbsp;&nbsp;
-  <a href="https://github.com/aggisanjay" target="_blank">
+  <a href="https://github.com/aggisanjay/ShopAI" target="_blank">
+    <img src="https://img.shields.io/badge/GITHUB_REPO-ShopAI-701A3D?style=for-the-badge&logo=github&logoColor=E5B5C7&labelColor=190B12" alt="ShopAI Repository" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/aggisanjay/ShopAI" target="_blank">
     <img src="https://img.shields.io/badge/ARCHITECTURE-REDIS_CACHE--ASIDE-701A3D?style=for-the-badge&logo=redis&logoColor=E5B5C7&labelColor=190B12" alt="ShopAI Architecture" />
   </a>
 </p>
@@ -91,8 +111,30 @@
     <img src="https://img.shields.io/badge/LIVE_DEMO-AURA_FINANCE-701A3D?style=for-the-badge&logo=vercel&logoColor=E5B5C7&labelColor=190B12" alt="Aura Finance Live Demo" />
   </a>
   &nbsp;&nbsp;
-  <a href="https://github.com/aggisanjay" target="_blank">
+  <a href="https://github.com/aggisanjay/Ai-Powered-Personal-Finance-Platform" target="_blank">
+    <img src="https://img.shields.io/badge/GITHUB_REPO-Aura--Finance--Platform-701A3D?style=for-the-badge&logo=github&logoColor=E5B5C7&labelColor=190B12" alt="Ai-Powered-Personal-Finance-Platform Repository" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/aggisanjay/Ai-Powered-Personal-Finance-Platform" target="_blank">
     <img src="https://img.shields.io/badge/ARCHITECTURE-FASTAPI_·_GROUNDED_GEMINI-701A3D?style=for-the-badge&logo=fastapi&logoColor=E5B5C7&labelColor=190B12" alt="Aura Finance Architecture" />
+  </a>
+</p>
+
+<br/>
+
+<!-- Project 07: MeetUp -->
+<img src="assets/project-meetup.svg" width="100%" alt="Project 07: MeetUp — Real-time collaborative meeting and workspace platform with WebRTC and CRDTs" />
+<p align="center">
+  <a href="https://meetup-six-puce.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/LIVE_DEMO-MEETUP_WORKSPACE-701A3D?style=for-the-badge&logo=vercel&logoColor=E5B5C7&labelColor=190B12" alt="MeetUp Live Demo" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/aggisanjay/meetup" target="_blank">
+    <img src="https://img.shields.io/badge/GITHUB_REPO-meetup-701A3D?style=for-the-badge&logo=github&logoColor=E5B5C7&labelColor=190B12" alt="MeetUp Repository" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/aggisanjay/meetup" target="_blank">
+    <img src="https://img.shields.io/badge/ARCHITECTURE-WEBRTC_·_CRDTS_·_SOCKET.IO-701A3D?style=for-the-badge&logo=webrtc&logoColor=E5B5C7&labelColor=190B12" alt="MeetUp Architecture" />
   </a>
 </p>
 
@@ -112,13 +154,13 @@
 
 <!-- 06 IMPACT -->
 <img src="assets/title-impact.svg" width="100%" alt="05 Impact — Measured production results" />
-<img src="assets/impact.svg" width="100%" alt="Production Impact: 60+ Features Shipped, 66% Latency Reduction (450ms to 150ms), 40+ REST APIs, 6 AI Products, 99.8% Uptime, 3 RAG Pipelines" />
+<img src="assets/impact.svg" width="100%" alt="Production Impact: 60+ Features Shipped, 66% Latency Reduction (450ms to 150ms), 40+ REST APIs, 7 Production Systems, 99.8% Uptime, 3 RAG Pipelines" />
 
 <br/><br/>
 
 <!-- 07 COMMIT LOG & GITHUB TELEMETRY -->
 <img src="assets/title-commits.svg" width="100%" alt="06 Commit Log — Real-time continuous delivery rhythm" />
-<img src="assets/github-glance.svg" width="100%" alt="GitHub at a glance: 1,374 commits, 35 repos, 10 stars, 2 PRs, 33 contributed repos" />
+<img src="assets/github-glance.svg" width="100%" alt="GitHub at a glance: 1,400 commits, 43 repos, 31 stars, 3 PRs, 41 contributed repos" />
 
 <br/>
 
