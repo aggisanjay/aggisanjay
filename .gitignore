@@ -5,3 +5,5 @@ verification_screenshots/
 __pycache__/
 *.pyc
 .gitignore
+config.bat
+node_modules
